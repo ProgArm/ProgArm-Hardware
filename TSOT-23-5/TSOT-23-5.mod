@@ -1,0 +1,55 @@
+PCBNEW-LibModule-V1  Thu 13 Feb 2014 22:53:59 EET
+# encoding utf-8
+Units mm
+$INDEX
+TSOT-23-5
+$EndINDEX
+$MODULE TSOT-23-5
+Po 0 0 0 15 52FD30D2 00000000 ~~
+Li TSOT-23-5
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -0.3 0.3 0.3 0 0.06 N V 21 N "TSOT-23-5"
+T1 0 0.3 0.3 0.3 0 0.06 N V 21 N "VAL**"
+DS -1.45 -0.75 1.45 -0.75 0.15 21
+DS 1.45 -0.75 1.45 0.75 0.15 21
+DS 1.45 0.75 -1.45 0.75 0.15 21
+DS -1.45 0.75 -1.45 -0.75 0.15 21
+$PAD
+Sh "1" R 0.62 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.31
+$EndPAD
+$PAD
+Sh "2" R 0.62 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.31
+$EndPAD
+$PAD
+Sh "3" R 0.62 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.31
+$EndPAD
+$PAD
+Sh "4" R 0.62 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.31
+$EndPAD
+$PAD
+Sh "5" R 0.62 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.31
+$EndPAD
+$EndMODULE TSOT-23-5
+$EndLIBRARY
