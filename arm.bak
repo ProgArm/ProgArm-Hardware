@@ -44,7 +44,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "3 jun 2014"
+Date "27 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1608,7 +1608,7 @@ Entry Wire Line
 Entry Wire Line
 	1600 6050 1700 5950
 Text Label 1200 5850 0    60   ~ 0
-SPI_SCK
+SPI_NSS
 Text Label 1200 5950 0    60   ~ 0
 SPI_MISO
 Text Label 1200 6050 0    60   ~ 0
