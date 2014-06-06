@@ -1,2 +1,2 @@
 *.sch     filter=clearsch
-*.lib     filter=clearsch
+*.lib     filter=clearlib
