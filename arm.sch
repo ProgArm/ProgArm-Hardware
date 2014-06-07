@@ -173,10 +173,6 @@ F 3 "" H 1700 750 60  0000 C CNN
 	1    1700 750 
 	1    0    0    -1  
 $EndComp
-Text Label 900  4600 2    60   ~ 0
-VCC
-Text Label 900  4400 2    60   ~ 0
-SCL
 Text GLabel 4050 3450 0    60   BiDi ~ 0
 sda
 Text GLabel 3800 3350 0    60   Output ~ 0
