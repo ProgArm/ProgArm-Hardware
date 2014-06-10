@@ -2827,19 +2827,8 @@ $EndComp
 Connection ~ 700  1250
 Wire Wire Line
 	700  700  700  650 
-Text GLabel 1850 650  2    60   Input ~ 0
+Text GLabel 2050 1000 1    60   Input ~ 0
 FW/RST
-$Comp
-L R R?
-U 1 1 53960BF8
-P 1700 1200
-F 0 "R?" V 1780 1200 40  0000 C CNN
-F 1 "10k" V 1707 1201 40  0000 C CNN
-F 2 "~" V 1630 1200 30  0000 C CNN
-F 3 "~" H 1700 1200 30  0000 C CNN
-	1    1700 1200
-	-1   0    0    1   
-$EndComp
 $Comp
 L MOSFET_P Q?
 U 1 1 53960C04
@@ -2874,14 +2863,6 @@ F 3 "" H 2050 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 650  1700 950 
-Wire Wire Line
-	1700 1450 1700 1700
-Wire Wire Line
-	1700 950  2050 950 
-Wire Wire Line
-	2050 950  2050 1500
-Wire Wire Line
 	2050 1950 2050 1900
 Wire Wire Line
 	2050 2450 2050 2550
@@ -2895,9 +2876,6 @@ Wire Wire Line
 	1050 1400 1450 1400
 Wire Wire Line
 	1450 1400 1450 1700
-Connection ~ 1700 1700
-Wire Wire Line
-	1700 650  1850 650 
 $Comp
 L CAPAPOL C?
 U 1 1 539612EA
@@ -2925,4 +2903,6 @@ Wire Wire Line
 Connection ~ 2050 1950
 Wire Wire Line
 	1700 2550 1700 2400
+Wire Wire Line
+	2050 1500 2050 1000
 $EndSCHEMATC
