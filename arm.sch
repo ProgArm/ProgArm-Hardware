@@ -689,8 +689,6 @@ Text GLabel 7150 2450 2    60   Input ~ 0
 charge
 Text GLabel 10500 5200 3    60   Output ~ 0
 charge
-Text GLabel 4050 1500 0    60   Output ~ 0
-RESET
 $Comp
 L C C5
 U 1 1 52D7011A
@@ -713,8 +711,6 @@ F 3 "" H 700 2100 60  0000 C CNN
 	1    700  2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 1250 2    60   Input ~ 0
-RESET
 Text GLabel 7100 3600 3    60   Output ~ 0
 #BT_PWR
 Text GLabel 4050 2400 0    60   Input ~ 0
@@ -2179,7 +2175,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2450 7100 2450
 Wire Wire Line
-	700  1250 1150 1250
+	700  1250 2550 1250
 Wire Wire Line
 	7100 2950 7500 2950
 Wire Wire Line
@@ -2323,7 +2319,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4950 4750 4900
 Wire Wire Line
-	4050 1500 4100 1500
+	2550 1500 4100 1500
 Wire Wire Line
 	700  1750 700  2100
 Wire Wire Line
@@ -2905,4 +2901,6 @@ Wire Wire Line
 	1700 2550 1700 2400
 Wire Wire Line
 	2050 1500 2050 1000
+Wire Wire Line
+	2550 1250 2550 1500
 $EndSCHEMATC
