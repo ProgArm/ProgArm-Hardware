@@ -43,11 +43,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "ProgArm"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "License: GPL license (either version 3 of the License, or any later version)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
