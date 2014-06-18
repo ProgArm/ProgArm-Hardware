@@ -66,12 +66,12 @@ $EndComp
 $Comp
 L GND #PWR02
 U 1 1 52C0BA78
-P 8600 3500
-F 0 "#PWR02" H 8600 3500 30  0001 C CNN
-F 1 "GND" H 8600 3430 30  0001 C CNN
-F 2 "" H 8600 3500 60  0000 C CNN
-F 3 "" H 8600 3500 60  0000 C CNN
-	1    8600 3500
+P 8600 3150
+F 0 "#PWR02" H 8600 3150 30  0001 C CNN
+F 1 "GND" H 8600 3080 30  0001 C CNN
+F 2 "" H 8600 3150 60  0000 C CNN
+F 3 "" H 8600 3150 60  0000 C CNN
+	1    8600 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -108,9 +108,9 @@ F 3 "" H 15700 10300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 3450 0    60   BiDi ~ 0
-sda
+SDA
 Text GLabel 3800 3350 0    60   Output ~ 0
-scl
+SCL
 $Comp
 L R R4
 U 1 1 52C18407
@@ -134,17 +134,17 @@ F 3 "~" H 1000 3350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 12400 7750 1    60   BiDi ~ 0
-sda
+SDA
 Text GLabel 12600 7750 1    60   Input ~ 0
-scl
+SCL
 Text GLabel 6800 8300 1    60   BiDi ~ 0
-sda
+SDA
 Text GLabel 7000 8300 1    60   Input ~ 0
-scl
-Text GLabel 5750 10400 2    60   BiDi ~ 0
-sda
+SCL
+Text GLabel 5900 10400 2    60   BiDi ~ 0
+SDA
 Text GLabel 5550 10500 2    60   Input ~ 0
-scl
+SCL
 $Comp
 L CAPAPOL C17
 U 1 1 52C18A66
@@ -234,7 +234,7 @@ F 3 "" H 7100 11100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7150 7650 0    60   Output ~ 0
-accelgyro_interrupt
+MPU_INT
 $Comp
 L R R23
 U 1 1 52C1983B
@@ -346,7 +346,7 @@ F 3 "~" H 9050 10200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8300 3750 2    60   Input ~ 0
-accelgyro_interrupt
+MPU_INT
 $Comp
 L GND #PWR018
 U 1 1 52C1C155
@@ -631,7 +631,7 @@ F 3 "" H 10950 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10500 5200 3    60   Output ~ 0
-~charge
+~CHARGE
 $Comp
 L C C5
 U 1 1 52D7011A
@@ -655,7 +655,7 @@ F 3 "" H 700 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 3600 2    60   Output ~ 0
-~BT_PWR
+~BT_PWR_ENABLE
 Text GLabel 4050 2400 0    60   Input ~ 0
 ALERT
 $Comp
@@ -703,9 +703,9 @@ F 3 "" H 11300 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8450 8350 0    60   BiDi ~ 0
-sda
+SDA
 Text GLabel 8450 8200 0    60   Input ~ 0
-scl
+SCL
 Text GLabel 8450 8050 0    60   Output ~ 0
 ALERT
 $Comp
@@ -742,7 +742,7 @@ F 3 "" H 15350 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3900 2700 0    60   Output ~ 0
-~Vibration
+~VIBRATION
 $Comp
 L +3.3V #PWR033
 U 1 1 52E31088
@@ -777,7 +777,7 @@ F 3 "~" H 12700 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13000 1850 2    60   Input ~ 0
-~Vibration
+~VIBRATION
 $Comp
 L MOSFET_P Q3
 U 1 1 52EC1AB7
@@ -845,7 +845,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlml2246pbf.pdf" H 14600 6
 	0    -1   -1   0   
 $EndComp
 Text GLabel 14200 5150 1    60   Input ~ 0
-~BT_PWR
+~BT_PWR_ENABLE
 $Comp
 L R R15
 U 1 1 52EC323C
@@ -908,7 +908,7 @@ F 3 "" H 6900 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 3450 2    60   Output ~ 0
-~PWR
+~SYS_PWR_ENABLE
 $Comp
 L +3.3V #PWR038
 U 1 1 52EC46EE
@@ -956,7 +956,7 @@ $EndComp
 Text GLabel 14550 7400 2    60   Output ~ 0
 SYS_POWER
 Text GLabel 14000 6900 0    60   Input ~ 0
-~PWR
+~SYS_PWR_ENABLE
 $Comp
 L CAPAPOL C11
 U 1 1 52EC49BE
@@ -985,7 +985,7 @@ Text GLabel 8350 9300 2    60   Input ~ 0
 SYS_POWER
 Text GLabel 4000 9950 2    60   Input ~ 0
 SYS_POWER
-Text GLabel 11700 9150 3    60   Input ~ 0
+Text GLabel 11700 8350 1    60   Input ~ 0
 SYS_POWER
 Text GLabel 8100 4050 2    60   Input ~ 0
 SYS_POWER
@@ -1187,8 +1187,8 @@ Entry Wire Line
 	7600 5050 7700 5150
 Text Label 7750 5150 0    60   ~ 0
 SD_CD
-Text GLabel 14300 9050 1    60   Output ~ 0
-~BT_PWR
+Text GLabel 14300 9150 1    60   Output ~ 0
+~BT_PWR_ENABLE
 Entry Wire Line
 	8050 2550 8150 2450
 Entry Wire Line
@@ -1266,9 +1266,9 @@ F 3 "" H 8000 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 800  3800 3    60   BiDi ~ 0
-sda
+SDA
 Text GLabel 1000 3800 3    60   Output ~ 0
-scl
+SCL
 $Comp
 L R R17
 U 1 1 5308C58E
@@ -1370,9 +1370,9 @@ F 3 "~" H 12600 8750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 12800 7750 1    60   Output ~ 0
-magnetometer_interrupt
+HMC_INT
 Text GLabel 8200 3900 2    60   Input ~ 0
-magnetometer_interrupt
+HMC_INT
 $Comp
 L MOSFET_N Q1
 U 1 1 53093544
@@ -1679,7 +1679,7 @@ F 3 "" H 10200 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14250 3200 3    60   Input ~ 0
-~charge
+~CHARGE
 $Comp
 L LED D?
 U 1 1 53938FF3
@@ -1862,7 +1862,7 @@ F 3 "" H 15700 9000 60  0000 C CNN
 	1    15700 9000
 	1    0    0    -1  
 $EndComp
-Text GLabel 14650 9050 1    60   Output ~ 0
+Text GLabel 14650 9150 1    60   Output ~ 0
 FW/RST
 $Comp
 L SW_PUSH FW/RST
@@ -2066,7 +2066,7 @@ F 3 "~" H 10400 5750 30  0000 C CNN
 $EndComp
 Text GLabel 10450 6050 0    60   Input ~ 0
 ~PWM_MODE
-Text GLabel 13850 9050 1    60   Output ~ 0
+Text GLabel 13850 9150 1    60   Output ~ 0
 ~PWM_MODE
 $Comp
 L MOSFET_N Q?
@@ -2243,7 +2243,7 @@ Entry Wire Line
 Text Label 7650 2450 0    60   ~ 0
 BT_KEY
 Text GLabel 7450 4500 3    60   Input ~ 0
-~charge
+~CHARGE
 Text GLabel 6050 6500 0    60   Output ~ 0
 RING_BTN2
 Text GLabel 7150 3400 2    60   Input ~ 0
@@ -2266,8 +2266,6 @@ Wire Bus Line
 	9400 3800 10900 3800
 Wire Wire Line
 	14300 9850 14300 10300
-Wire Wire Line
-	14300 9050 14300 9450
 Wire Wire Line
 	8100 4400 8100 4050
 Wire Wire Line
@@ -2306,7 +2304,7 @@ Connection ~ 11700 8750
 Wire Wire Line
 	11700 8950 11800 8950
 Wire Wire Line
-	11700 8550 11700 9150
+	11700 8950 11700 8350
 Wire Wire Line
 	11800 8550 11700 8550
 Wire Wire Line
@@ -2448,11 +2446,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 10600 4300 10600
 Wire Wire Line
-	5400 10400 5750 10400
+	5400 10400 5900 10400
 Wire Wire Line
 	9900 8850 9900 9250
-Wire Wire Line
-	8600 2800 8600 3500
 Wire Wire Line
 	8650 2800 8600 2800
 Wire Wire Line
@@ -2945,8 +2941,6 @@ Wire Wire Line
 Wire Wire Line
 	15700 9000 15700 9550
 Wire Wire Line
-	14650 9650 14650 9050
-Wire Wire Line
 	2250 1650 4100 1650
 Wire Wire Line
 	1050 1100 1050 1400
@@ -3028,8 +3022,6 @@ Wire Wire Line
 Wire Wire Line
 	13850 9850 13850 10300
 Wire Wire Line
-	13850 9050 13850 9450
-Wire Wire Line
 	14600 9650 14600 9350
 Wire Wire Line
 	14600 9350 14150 9350
@@ -3102,7 +3094,6 @@ Wire Wire Line
 	2900 3700 2900 3800
 Wire Wire Line
 	11800 8750 11700 8750
-Connection ~ 11700 8950
 Wire Wire Line
 	1050 7550 1050 7800
 Wire Wire Line
@@ -3176,4 +3167,13 @@ Wire Wire Line
 	7100 4300 7450 4300
 Wire Wire Line
 	7450 4300 7450 4500
+Connection ~ 11700 8550
+Wire Wire Line
+	14650 9150 14650 9650
+Wire Wire Line
+	14300 9150 14300 9450
+Wire Wire Line
+	13850 9150 13850 9450
+Wire Wire Line
+	8600 2800 8600 3150
 $EndSCHEMATC
