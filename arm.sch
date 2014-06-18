@@ -2124,12 +2124,12 @@ F 3 "" H 5900 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	7500 4300 7600 4400
-Text Label 7150 4300 0    60   ~ 0
+	7500 3700 7600 3800
+Text Label 7150 3700 0    60   ~ 0
 SD_CD
 Text GLabel 1650 6500 2    60   Input ~ 0
 NSS2
-Text GLabel 7200 4400 2    60   Output ~ 0
+Text GLabel 7300 4500 3    60   Output ~ 0
 NSS2
 Text GLabel 7900 3300 2    60   Output ~ 0
 #PWM_MODE
@@ -2242,7 +2242,7 @@ Entry Wire Line
 	8050 2450 8150 2350
 Text Label 7650 2450 0    60   ~ 0
 BT_KEY
-Text GLabel 8100 3150 2    60   Input ~ 0
+Text GLabel 7450 4500 3    60   Input ~ 0
 charge
 Text GLabel 6050 6500 0    60   Output ~ 0
 RING_BTN2
@@ -3052,7 +3052,7 @@ Connection ~ 5600 4800
 Wire Wire Line
 	5900 4800 5900 4950
 Wire Wire Line
-	7500 4300 7100 4300
+	7500 3700 7100 3700
 Wire Wire Line
 	1650 6500 1450 6500
 Wire Wire Line
@@ -3131,12 +3131,6 @@ Wire Wire Line
 	4000 2750 4100 2750
 Connection ~ 13050 5600
 Wire Wire Line
-	8100 3150 7700 3150
-Wire Wire Line
-	7700 3150 7700 3700
-Wire Wire Line
-	7700 3700 7100 3700
-Wire Wire Line
 	6200 6500 6050 6500
 Wire Wire Line
 	7150 3400 7100 3400
@@ -3171,9 +3165,15 @@ Wire Wire Line
 Wire Wire Line
 	7850 4000 7100 4000
 Wire Wire Line
-	7200 4400 7100 4400
+	7300 4500 7300 4400
 Wire Wire Line
 	8050 4200 8050 3900
 Wire Wire Line
 	8050 3900 8200 3900
+Wire Wire Line
+	7300 4400 7100 4400
+Wire Wire Line
+	7100 4300 7450 4300
+Wire Wire Line
+	7450 4300 7450 4500
 $EndSCHEMATC
