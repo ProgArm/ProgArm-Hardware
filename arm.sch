@@ -345,7 +345,7 @@ F 3 "~" H 9050 10200 60  0000 C CNN
 	1    9050 10200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 3700 2    60   Input ~ 0
+Text GLabel 8300 3750 2    60   Input ~ 0
 accelgyro_interrupt
 $Comp
 L GND #PWR018
@@ -654,7 +654,7 @@ F 3 "" H 700 2100 60  0000 C CNN
 	1    700  2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 4600 3    60   Output ~ 0
+Text GLabel 7900 3600 2    60   Output ~ 0
 #BT_PWR
 Text GLabel 4050 2400 0    60   Input ~ 0
 ALERT
@@ -907,7 +907,7 @@ F 3 "" H 6900 5050 60  0000 C CNN
 	1    6900 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 2850 0    60   Output ~ 0
+Text GLabel 7900 3450 2    60   Output ~ 0
 #PWR
 $Comp
 L +3.3V #PWR038
@@ -987,7 +987,7 @@ Text GLabel 4000 9950 2    60   Input ~ 0
 SYS_POWER
 Text GLabel 11700 9150 3    60   Input ~ 0
 SYS_POWER
-Text GLabel 8100 4300 1    60   Input ~ 0
+Text GLabel 8100 4050 2    60   Input ~ 0
 SYS_POWER
 $Comp
 L CONN_5 P1
@@ -1180,7 +1180,7 @@ I2C_SDA
 Text Label 1000 4450 0    60   ~ 0
 I2C_SCL
 Text Label 1000 4550 0    60   ~ 0
-I2C_EXTRA
+I2C_EXTRA1
 Entry Wire Line
 	1850 4350 1950 4250
 Entry Wire Line
@@ -1371,7 +1371,7 @@ F 3 "~" H 12600 8750 60  0000 C CNN
 $EndComp
 Text GLabel 12800 7750 1    60   Output ~ 0
 magnetometer_interrupt
-Text GLabel 7600 5700 3    60   Input ~ 0
+Text GLabel 8200 3900 2    60   Input ~ 0
 magnetometer_interrupt
 $Comp
 L MOSFET_N Q1
@@ -1849,7 +1849,7 @@ F 3 "~" H 1950 10500 30  0000 C CNN
 	1    1950 10500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2950 4000 0    60   Output ~ 0
+Text GLabel 3900 2850 0    60   Output ~ 0
 #BUZZER
 $Comp
 L +3.3V #PWR062
@@ -2129,9 +2129,9 @@ Text Label 7150 4300 0    60   ~ 0
 SD_CD
 Text GLabel 1650 6500 2    60   Input ~ 0
 NSS2
-Text GLabel 7700 4200 2    60   Output ~ 0
+Text GLabel 7200 4400 2    60   Output ~ 0
 NSS2
-Text GLabel 7850 3300 2    60   Output ~ 0
+Text GLabel 7900 3300 2    60   Output ~ 0
 #PWM_MODE
 $Comp
 L CONN_6 P?
@@ -2148,14 +2148,6 @@ Entry Wire Line
 	1850 4450 1950 4350
 Text Label 1000 4650 0    60   ~ 0
 I2C_EXTRA2
-Text GLabel 1900 4550 2    60   BiDi ~ 0
-EXTRA1
-Text GLabel 1900 4750 2    60   BiDi ~ 0
-EXTRA2
-Text GLabel 7850 3450 2    60   BiDi ~ 0
-EXTRA1
-Text GLabel 7850 3600 2    60   BiDi ~ 0
-EXTRA2
 Text GLabel 7750 3050 2    60   Output ~ 0
 JTCK
 Text GLabel 7300 3150 2    60   Input ~ 0
@@ -2277,11 +2269,9 @@ Wire Wire Line
 Wire Wire Line
 	14300 9050 14300 9450
 Wire Wire Line
-	8100 4400 8100 4300
+	8100 4400 8100 4050
 Wire Wire Line
 	8200 4400 8100 4400
-Wire Wire Line
-	7600 5400 7600 5700
 Wire Wire Line
 	12800 7750 12800 7950
 Wire Wire Line
@@ -2382,8 +2372,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 3600 1700 3450
 Connection ~ 1700 3600
-Wire Wire Line
-	4100 2850 4050 2850
 Connection ~ 2900 3000
 Wire Wire Line
 	2900 3000 2900 3050
@@ -2510,9 +2498,9 @@ Wire Wire Line
 Wire Bus Line
 	3100 4150 1950 4150
 Wire Bus Line
-	3100 3850 3100 4150
+	3100 3650 3100 4150
 Wire Wire Line
-	1000 4550 1900 4550
+	1000 4550 1850 4550
 Wire Wire Line
 	1000 4450 1850 4450
 Wire Wire Line
@@ -2577,8 +2565,6 @@ Wire Wire Line
 	9050 10400 9050 10750
 Wire Wire Line
 	8600 10400 8600 10750
-Wire Wire Line
-	3050 3650 4100 3650
 Wire Wire Line
 	3250 2500 4100 2500
 Wire Wire Line
@@ -2951,10 +2937,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 10800 1550 10800
 Wire Wire Line
-	3050 4000 2950 4000
-Wire Wire Line
-	3050 3650 3050 4000
-Wire Wire Line
 	4100 2950 3950 2950
 Wire Wire Line
 	3950 2950 3950 3000
@@ -3070,16 +3052,6 @@ Connection ~ 5600 4800
 Wire Wire Line
 	5900 4800 5900 4950
 Wire Wire Line
-	7600 5400 7350 5400
-Wire Wire Line
-	7350 5400 7350 4500
-Wire Wire Line
-	7350 4500 7100 4500
-Wire Wire Line
-	7500 4600 7500 4400
-Wire Wire Line
-	7500 4400 7100 4400
-Wire Wire Line
 	7500 4300 7100 4300
 Wire Wire Line
 	1650 6500 1450 6500
@@ -3088,33 +3060,19 @@ Wire Wire Line
 Wire Wire Line
 	1450 6800 1000 6800
 Wire Wire Line
-	7700 4200 7100 4200
+	7100 4200 8050 4200
 Wire Bus Line
-	1950 4150 1950 4350
+	1950 4150 1950 4550
 Wire Wire Line
 	1000 4650 1850 4650
 Wire Wire Line
-	1850 4650 1850 4750
+	8300 3750 8000 3750
 Wire Wire Line
-	1850 4750 1900 4750
-Wire Wire Line
-	8300 3700 8000 3700
-Wire Wire Line
-	8000 3700 8000 4100
+	8000 3750 8000 4100
 Wire Wire Line
 	8000 4100 7100 4100
 Wire Wire Line
-	7850 3600 7850 4000
-Wire Wire Line
-	7850 4000 7100 4000
-Wire Wire Line
-	7850 3450 7800 3450
-Wire Wire Line
-	7800 3450 7800 3900
-Wire Wire Line
-	7800 3900 7100 3900
-Wire Wire Line
-	7850 3300 7750 3300
+	7900 3300 7750 3300
 Wire Wire Line
 	7750 3300 7750 3800
 Wire Wire Line
@@ -3182,4 +3140,40 @@ Wire Wire Line
 	6200 6500 6050 6500
 Wire Wire Line
 	7150 3400 7100 3400
+Wire Wire Line
+	3900 2850 4100 2850
+Entry Wire Line
+	3100 3750 3200 3650
+Entry Wire Line
+	3100 3650 3200 3550
+Wire Wire Line
+	3200 3550 4100 3550
+Wire Wire Line
+	3200 3650 4100 3650
+Entry Wire Line
+	1850 4550 1950 4450
+Entry Wire Line
+	1850 4650 1950 4550
+Text Label 3250 3550 0    60   ~ 0
+I2C_EXTRA1
+Text Label 3250 3650 0    60   ~ 0
+I2C_EXTRA2
+Wire Wire Line
+	7900 3450 7800 3450
+Wire Wire Line
+	7800 3450 7800 3900
+Wire Wire Line
+	7800 3900 7100 3900
+Wire Wire Line
+	7900 3600 7850 3600
+Wire Wire Line
+	7850 3600 7850 4000
+Wire Wire Line
+	7850 4000 7100 4000
+Wire Wire Line
+	7200 4400 7100 4400
+Wire Wire Line
+	8050 4200 8050 3900
+Wire Wire Line
+	8050 3900 8200 3900
 $EndSCHEMATC
