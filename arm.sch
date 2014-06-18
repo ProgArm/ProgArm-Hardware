@@ -631,7 +631,7 @@ F 3 "" H 10950 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10500 5200 3    60   Output ~ 0
-charge
+~charge
 $Comp
 L C C5
 U 1 1 52D7011A
@@ -655,7 +655,7 @@ F 3 "" H 700 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 3600 2    60   Output ~ 0
-#BT_PWR
+~BT_PWR
 Text GLabel 4050 2400 0    60   Input ~ 0
 ALERT
 $Comp
@@ -742,7 +742,7 @@ F 3 "" H 15350 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3900 2700 0    60   Output ~ 0
-#Vibration
+~Vibration
 $Comp
 L +3.3V #PWR033
 U 1 1 52E31088
@@ -777,7 +777,7 @@ F 3 "~" H 12700 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13000 1850 2    60   Input ~ 0
-#Vibration
+~Vibration
 $Comp
 L MOSFET_P Q3
 U 1 1 52EC1AB7
@@ -845,7 +845,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irlml2246pbf.pdf" H 14600 6
 	0    -1   -1   0   
 $EndComp
 Text GLabel 14200 5150 1    60   Input ~ 0
-#BT_PWR
+~BT_PWR
 $Comp
 L R R15
 U 1 1 52EC323C
@@ -908,7 +908,7 @@ F 3 "" H 6900 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 3450 2    60   Output ~ 0
-#PWR
+~PWR
 $Comp
 L +3.3V #PWR038
 U 1 1 52EC46EE
@@ -956,7 +956,7 @@ $EndComp
 Text GLabel 14550 7400 2    60   Output ~ 0
 SYS_POWER
 Text GLabel 14000 6900 0    60   Input ~ 0
-#PWR
+~PWR
 $Comp
 L CAPAPOL C11
 U 1 1 52EC49BE
@@ -1188,7 +1188,7 @@ Entry Wire Line
 Text Label 7750 5150 0    60   ~ 0
 SD_CD
 Text GLabel 14300 9050 1    60   Output ~ 0
-#BT_PWR
+~BT_PWR
 Entry Wire Line
 	8050 2550 8150 2450
 Entry Wire Line
@@ -1679,7 +1679,7 @@ F 3 "" H 10200 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14250 3200 3    60   Input ~ 0
-charge
+~charge
 $Comp
 L LED D?
 U 1 1 53938FF3
@@ -1815,7 +1815,7 @@ F 3 "~" H 2000 10800 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1550 10800 0    60   Input ~ 0
-#BUZZER
+~BUZZER
 $Comp
 L MOSFET_P Q?
 U 1 1 5394D596
@@ -1850,7 +1850,7 @@ F 3 "~" H 1950 10500 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 3900 2850 0    60   Output ~ 0
-#BUZZER
+~BUZZER
 $Comp
 L +3.3V #PWR062
 U 1 1 5395FCE4
@@ -2065,9 +2065,9 @@ F 3 "~" H 10400 5750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 10450 6050 0    60   Input ~ 0
-#PWM_MODE
+~PWM_MODE
 Text GLabel 13850 9050 1    60   Output ~ 0
-#PWM_MODE
+~PWM_MODE
 $Comp
 L MOSFET_N Q?
 U 1 1 539F394A
@@ -2132,7 +2132,7 @@ NSS2
 Text GLabel 7300 4500 3    60   Output ~ 0
 NSS2
 Text GLabel 7900 3300 2    60   Output ~ 0
-#PWM_MODE
+~PWM_MODE
 $Comp
 L CONN_6 P?
 U 1 1 53A0F880
@@ -2157,7 +2157,7 @@ JTMS
 Text GLabel 3300 3100 0    60   Output ~ 0
 JTDO
 Text GLabel 2800 3250 0    60   Input ~ 0
-#NJTRST
+~NJTRST
 $Comp
 L C C?
 U 1 1 53A122DD
@@ -2181,7 +2181,7 @@ F 3 "" H 2900 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1050 1100 1    60   Input ~ 0
-#RESET
+~RESET
 $Comp
 L CONN_8 P?
 U 1 1 53A12C84
@@ -2216,9 +2216,9 @@ F 3 "" H 1050 8750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 8400 2    60   Output ~ 0
-#RESET
+~RESET
 Text GLabel 1600 8300 2    60   Output ~ 0
-#NJTRST
+~NJTRST
 Text GLabel 1200 8200 2    60   Input ~ 0
 JTDO
 Text GLabel 1600 8100 2    60   Output ~ 0
@@ -2243,7 +2243,7 @@ Entry Wire Line
 Text Label 7650 2450 0    60   ~ 0
 BT_KEY
 Text GLabel 7450 4500 3    60   Input ~ 0
-charge
+~charge
 Text GLabel 6050 6500 0    60   Output ~ 0
 RING_BTN2
 Text GLabel 7150 3400 2    60   Input ~ 0
