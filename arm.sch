@@ -630,8 +630,6 @@ F 3 "" H 10950 9900 60  0000 C CNN
 	1    10950 9900
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 2450 2    60   Input ~ 0
-charge
 Text GLabel 10500 5200 3    60   Output ~ 0
 charge
 $Comp
@@ -1271,10 +1269,6 @@ Text GLabel 800  3800 3    60   BiDi ~ 0
 sda
 Text GLabel 1000 3800 3    60   Output ~ 0
 scl
-Text Label 3450 3250 0    60   ~ 0
-BT_KEY
-Entry Wire Line
-	3350 3350 3450 3250
 $Comp
 L R R17
 U 1 1 5308C58E
@@ -1926,8 +1920,6 @@ Wire Wire Line
 Wire Bus Line
 	3350 3600 3900 3600
 Wire Wire Line
-	3450 3250 4100 3250
-Wire Wire Line
 	4050 3450 4100 3450
 Wire Wire Line
 	3800 3350 4100 3350
@@ -2073,7 +2065,9 @@ Wire Bus Line
 Wire Bus Line
 	8150 1750 8150 1850
 Wire Bus Line
-	8150 1850 8150 2450
+	8150 1850 8150 2350
+Wire Bus Line
+	8150 2350 8150 2450
 Wire Bus Line
 	8150 2450 8150 2550
 Wire Wire Line
@@ -2095,7 +2089,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 2550 8050 2550
 Wire Wire Line
-	7150 2450 7100 2450
+	7100 2450 7600 2450
+Wire Wire Line
+	7600 2450 8050 2450
 Wire Wire Line
 	700  1250 1050 1250
 Wire Wire Line
@@ -3188,8 +3184,6 @@ Wire Bus Line
 Wire Bus Line
 	1950 4250 1950 4350
 Wire Bus Line
-	3350 3350 3350 3450
-Wire Bus Line
 	3350 3450 3350 3600
 Wire Wire Line
 	1000 4650 1850 4650
@@ -3374,4 +3368,16 @@ F 3 "" H 3950 3000 60  0000 C CNN
 	1    3950 3000
 	1    0    0    -1  
 $EndComp
+Entry Wire Line
+	8050 2450 8150 2350
+Text Label 7650 2450 0    60   ~ 0
+BT_KEY
+Wire Wire Line
+	8100 3150 7700 3150
+Wire Wire Line
+	7700 3150 7700 3700
+Wire Wire Line
+	7700 3700 7100 3700
+Text GLabel 8100 3150 2    60   Input ~ 0
+charge
 $EndSCHEMATC
