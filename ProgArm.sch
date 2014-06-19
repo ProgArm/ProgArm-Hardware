@@ -345,7 +345,7 @@ F 3 "~" H 9050 10200 60  0000 C CNN
 	1    9050 10200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 3750 2    60   Input ~ 0
+Text GLabel 8300 3900 2    60   Input ~ 0
 MPU_INT
 $Comp
 L GND #PWR016
@@ -987,7 +987,7 @@ Text GLabel 4200 9950 2    60   Input ~ 0
 SYS_POWER
 Text GLabel 11700 8150 1    60   Input ~ 0
 SYS_POWER
-Text GLabel 8100 4050 2    60   Input ~ 0
+Text GLabel 8100 4200 2    60   Input ~ 0
 SYS_POWER
 $Comp
 L CONN_5 P9
@@ -1023,9 +1023,9 @@ F 3 "~" H 1700 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1300 5550 0    60   Input ~ 0
-SYS_POWER
+PRT_POWER
 Text GLabel 1500 2950 1    60   Input ~ 0
-SYS_POWER
+PRT_POWER
 $Comp
 L R R4
 U 1 1 52FB9A84
@@ -1365,7 +1365,7 @@ F 3 "~" H 12600 8550 60  0000 C CNN
 $EndComp
 Text GLabel 12800 7550 1    60   Output ~ 0
 HMC_INT
-Text GLabel 8200 3900 2    60   Input ~ 0
+Text GLabel 8200 4050 2    60   Input ~ 0
 HMC_INT
 $Comp
 L MOSFET_N Q9
@@ -1997,7 +1997,7 @@ F 3 "" H 1300 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1300 6500 0    60   Input ~ 0
-SYS_POWER
+PRT_POWER
 Entry Wire Line
 	1450 6900 1550 6800
 Entry Wire Line
@@ -2112,7 +2112,7 @@ Text Label 7150 3700 0    60   ~ 0
 SD_CD
 Text GLabel 1650 6500 2    60   Input ~ 0
 NSS2
-Text GLabel 7300 4500 3    60   Output ~ 0
+Text GLabel 7300 4600 3    60   Output ~ 0
 NSS2
 Text GLabel 8000 3300 2    60   Output ~ 0
 ~PWM_MODE
@@ -2237,8 +2237,6 @@ Wire Wire Line
 	13350 3000 13350 2850
 Wire Wire Line
 	14300 9850 14300 10050
-Wire Wire Line
-	8100 4400 8100 4050
 Wire Wire Line
 	8200 4400 8100 4400
 Wire Wire Line
@@ -2997,24 +2995,16 @@ Wire Wire Line
 	1450 6500 1450 6800
 Wire Wire Line
 	1450 6800 1000 6800
-Wire Wire Line
-	7100 4200 8050 4200
 Wire Bus Line
 	1950 4150 1950 4550
 Wire Wire Line
 	1000 4650 1850 4650
 Wire Wire Line
-	8300 3750 8000 3750
+	7950 3900 8300 3900
 Wire Wire Line
-	8000 3750 8000 4100
+	7750 3300 8000 3300
 Wire Wire Line
-	8000 4100 7100 4100
-Wire Wire Line
-	8000 3300 7850 3300
-Wire Wire Line
-	7850 3300 7850 3800
-Wire Wire Line
-	7850 3800 7100 3800
+	7750 3300 7750 3800
 Wire Wire Line
 	7550 3150 7100 3150
 Wire Wire Line
@@ -3090,23 +3080,17 @@ I2C_EXTRA1
 Text Label 3250 3650 0    60   ~ 0
 I2C_EXTRA2
 Wire Wire Line
-	8000 3450 7900 3450
+	7800 3450 8000 3450
 Wire Wire Line
-	7900 3450 7900 3900
+	7800 3450 7800 3900
 Wire Wire Line
-	7900 3900 7100 3900
+	7850 3600 8000 3600
 Wire Wire Line
-	8000 3600 7950 3600
+	7850 3600 7850 4000
 Wire Wire Line
-	7950 3600 7950 4000
+	7300 4400 7300 4600
 Wire Wire Line
-	7950 4000 7100 4000
-Wire Wire Line
-	7300 4300 7300 4500
-Wire Wire Line
-	8050 4200 8050 3900
-Wire Wire Line
-	8050 3900 8200 3900
+	8000 4050 8200 4050
 Wire Wire Line
 	7450 3750 7450 4500
 Connection ~ 11700 8350
@@ -3174,7 +3158,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3600 7100 3600
 Wire Wire Line
-	7100 4300 7300 4300
+	7100 4400 7300 4400
 Wire Wire Line
 	13350 2350 13350 2250
 Wire Wire Line
@@ -3233,32 +3217,24 @@ Wire Wire Line
 Wire Wire Line
 	7550 3200 7650 3200
 Wire Wire Line
-	7100 4400 7200 4400
+	7100 4500 7200 4500
 Wire Wire Line
-	7200 4400 7200 4900
-Wire Wire Line
-	7100 4500 7100 4750
-Text GLabel 7200 4900 3    60   BiDi ~ 0
+	7200 4500 7200 5000
+Text GLabel 7200 5000 3    60   BiDi ~ 0
 NC_3
-Text GLabel 7050 4900 3    60   BiDi ~ 0
-NC_4
-Wire Wire Line
-	7100 4750 7050 4750
-Wire Wire Line
-	7050 4750 7050 4900
 Text GLabel 4000 4500 0    60   BiDi ~ 0
-NC_6
+NC_5
 Wire Wire Line
 	4000 4500 4100 4500
-Text GLabel 4700 6050 2    60   BiDi ~ 0
+Text GLabel 3250 4600 2    60   BiDi ~ 0
 NC_1
-Text GLabel 4700 6200 2    60   BiDi ~ 0
+Text GLabel 3250 4750 2    60   BiDi ~ 0
 NC_2
-Text GLabel 4700 6350 2    60   BiDi ~ 0
+Text GLabel 3250 4900 2    60   BiDi ~ 0
 NC_3
-Text GLabel 4700 6500 2    60   BiDi ~ 0
+Text GLabel 3250 5050 2    60   BiDi ~ 0
 NC_4
-Text GLabel 4700 6650 2    60   BiDi ~ 0
+Text GLabel 3250 5200 2    60   BiDi ~ 0
 NC_5
 Wire Bus Line
 	8150 1400 10800 1400
@@ -3273,52 +3249,164 @@ Wire Bus Line
 Wire Bus Line
 	11200 800  11200 3800
 Text GLabel 4000 2400 0    60   BiDi ~ 0
-NC_5
+NC_4
 Wire Wire Line
 	4100 2400 4000 2400
+Wire Wire Line
+	2950 4600 3250 4600
+Wire Wire Line
+	2950 4700 3200 4700
+Wire Wire Line
+	3200 4700 3200 4750
+Wire Wire Line
+	3200 4750 3250 4750
+Wire Wire Line
+	2950 4800 3150 4800
+Wire Wire Line
+	3150 4800 3150 4900
+Wire Wire Line
+	3150 4900 3250 4900
+Wire Wire Line
+	2950 4900 3100 4900
+Wire Wire Line
+	3100 4900 3100 5050
+Wire Wire Line
+	3100 5050 3250 5050
+Wire Wire Line
+	2950 5000 3050 5000
+Wire Wire Line
+	3050 5000 3050 5200
+Wire Wire Line
+	3050 5200 3250 5200
 $Comp
-L CONN_6 P?
-U 1 1 53A302D6
-P 4050 6300
-F 0 "P?" V 4000 6300 60  0000 C CNN
-F 1 "Unused_Pins" V 4100 6300 60  0000 C CNN
-F 2 "" H 4050 6300 60  0000 C CNN
-F 3 "" H 4050 6300 60  0000 C CNN
-	1    4050 6300
+L +3.3V #PWR?
+U 1 1 53A30D3B
+P 5100 9050
+F 0 "#PWR?" H 5100 9010 30  0001 C CNN
+F 1 "+3.3V" H 5100 9160 30  0000 C CNN
+F 2 "" H 5100 9050 60  0000 C CNN
+F 3 "" H 5100 9050 60  0000 C CNN
+	1    5100 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53A30D41
+P 4750 9600
+F 0 "R?" V 4830 9600 40  0000 C CNN
+F 1 "100k" V 4757 9601 40  0000 C CNN
+F 2 "~" V 4680 9600 30  0000 C CNN
+F 3 "~" H 4750 9600 30  0000 C CNN
+	1    4750 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MOSFET_P Q?
+U 1 1 53A30D47
+P 4350 9200
+F 0 "Q?" H 4350 9390 60  0000 R CNN
+F 1 "IRLML2246TRPBF" H 4350 9020 60  0000 R CNN
+F 2 "~" H 4350 9200 60  0000 C CNN
+F 3 "http://www.irf.com/product-info/datasheets/data/irlml2246pbf.pdf" H 4350 9200 60  0001 C CNN
+	1    4350 9200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3950 8150 1    60   Input ~ 0
+~PRT_PWR_ENABLE
+$Comp
+L R R?
+U 1 1 53A30D4E
+P 3950 8550
+F 0 "R?" V 4030 8550 40  0000 C CNN
+F 1 "300R" V 3957 8551 40  0000 C CNN
+F 2 "~" V 3880 8550 30  0000 C CNN
+F 3 "~" H 3950 8550 30  0000 C CNN
+	1    3950 8550
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4700 6800 2    60   BiDi ~ 0
-NC_6
+Text GLabel 4200 8700 2    60   Output ~ 0
+PRT_POWER
 Wire Wire Line
-	4400 6050 4700 6050
+	3950 8800 3950 9600
 Wire Wire Line
-	4400 6150 4650 6150
+	4550 9100 5100 9100
 Wire Wire Line
-	4650 6150 4650 6200
+	3950 9600 4500 9600
 Wire Wire Line
-	4650 6200 4700 6200
+	4350 9600 4350 9400
+Connection ~ 4350 9600
 Wire Wire Line
-	4400 6250 4600 6250
+	3950 8300 3950 8150
 Wire Wire Line
-	4600 6250 4600 6350
+	4150 8700 4150 9100
 Wire Wire Line
-	4600 6350 4700 6350
+	4200 8700 4150 8700
+Connection ~ 5100 9100
 Wire Wire Line
-	4400 6350 4550 6350
+	5100 9600 5000 9600
 Wire Wire Line
-	4550 6350 4550 6500
+	5100 9050 5100 9600
+$Comp
+L CAPAPOL C?
+U 1 1 53A30D62
+P 5400 8750
+F 0 "C?" H 5450 8850 40  0000 L CNN
+F 1 "100uF" H 5450 8650 40  0000 L CNN
+F 2 "~" H 5500 8600 30  0000 C CNN
+F 3 "~" H 5400 8750 300 0000 C CNN
+	1    5400 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53A30D68
+P 5400 9550
+F 0 "#PWR?" H 5400 9550 30  0001 C CNN
+F 1 "GND" H 5400 9480 30  0001 C CNN
+F 2 "" H 5400 9550 60  0000 C CNN
+F 3 "" H 5400 9550 60  0000 C CNN
+	1    5400 9550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 8200 1    60   Input ~ 0
+PRT_POWER
 Wire Wire Line
-	4550 6500 4700 6500
+	5400 8200 5400 8550
 Wire Wire Line
-	4400 6450 4500 6450
+	5400 8950 5400 9550
+Text GLabel 8000 3750 2    60   Output ~ 0
+~PRT_PWR_ENABLE
 Wire Wire Line
-	4500 6450 4500 6650
+	8100 4400 8100 4200
 Wire Wire Line
-	4500 6650 4700 6650
+	7950 3900 7950 4200
 Wire Wire Line
-	4400 6550 4450 6550
+	8000 4050 8000 4300
 Wire Wire Line
-	4450 6550 4450 6800
+	7750 3800 7100 3800
 Wire Wire Line
-	4450 6800 4700 6800
+	7800 3900 7100 3900
+Wire Wire Line
+	7850 4000 7100 4000
+Wire Wire Line
+	7900 3750 8000 3750
+Wire Wire Line
+	7900 3750 7900 4100
+Wire Wire Line
+	7900 4100 7100 4100
+Wire Wire Line
+	7950 4200 7100 4200
+Wire Wire Line
+	8000 4300 7100 4300
+$Comp
+L CONN_5 P?
+U 1 1 53A33438
+P 2550 4800
+F 0 "P?" V 2500 4800 50  0000 C CNN
+F 1 "Unused_Pins" V 2600 4800 50  0000 C CNN
+F 2 "" H 2550 4800 60  0000 C CNN
+F 3 "" H 2550 4800 60  0000 C CNN
+	1    2550 4800
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
