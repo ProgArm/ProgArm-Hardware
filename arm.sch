@@ -109,7 +109,7 @@ F 3 "" H 15700 10300 60  0000 C CNN
 $EndComp
 Text GLabel 4050 3450 0    60   BiDi ~ 0
 SDA
-Text GLabel 3800 3350 0    60   Output ~ 0
+Text GLabel 3700 3350 0    60   Output ~ 0
 SCL
 $Comp
 L R R4
@@ -1968,7 +1968,7 @@ L CONN_4 P?
 U 1 1 539C9DFC
 P 650 5150
 F 0 "P?" V 600 5150 50  0000 C CNN
-F 1 "I²C_Solder" V 700 5150 50  0000 C CNN
+F 1 "I2C_Solder" V 700 5150 50  0000 C CNN
 F 2 "" H 650 5150 60  0000 C CNN
 F 3 "" H 650 5150 60  0000 C CNN
 	1    650  5150
@@ -2121,7 +2121,7 @@ L CONN_6 P?
 U 1 1 53A0F880
 P 650 4500
 F 0 "P?" V 600 4500 60  0000 C CNN
-F 1 "I²C_Port" V 700 4500 60  0000 C CNN
+F 1 "I2C_Port" V 700 4500 60  0000 C CNN
 F 2 "" H 650 4500 60  0000 C CNN
 F 3 "" H 650 4500 60  0000 C CNN
 	1    650  4500
@@ -2133,7 +2133,7 @@ Text Label 1000 4650 0    60   ~ 0
 I2C_EXTRA2
 Text GLabel 7750 3050 2    60   Output ~ 0
 JTCK
-Text GLabel 7300 3150 2    60   Input ~ 0
+Text GLabel 7650 3200 2    60   Input ~ 0
 JTDI
 Text GLabel 8100 2950 2    60   Input ~ 0
 JTMS
@@ -2170,7 +2170,7 @@ L CONN_8 P?
 U 1 1 53A12C84
 P 650 8150
 F 0 "P?" V 600 8150 60  0000 C CNN
-F 1 "JTAG_INTERFACE" V 700 8150 60  0000 C CNN
+F 1 "JTAG_Interface" V 700 8150 60  0000 C CNN
 F 2 "" H 650 8150 60  0000 C CNN
 F 3 "" H 650 8150 60  0000 C CNN
 	1    650  8150
@@ -2322,7 +2322,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3450 4100 3450
 Wire Wire Line
-	3800 3350 4100 3350
+	3700 3350 4100 3350
 Wire Wire Line
 	2200 2200 2200 2550
 Wire Wire Line
@@ -3020,7 +3020,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3800 7100 3800
 Wire Wire Line
-	7300 3150 7100 3150
+	7550 3150 7100 3150
 Wire Wire Line
 	7100 3050 7750 3050
 Wire Wire Line
@@ -3222,4 +3222,85 @@ Wire Wire Line
 	11100 3200 11000 3200
 Wire Wire Line
 	11000 3200 11000 3700
+Text GLabel 4050 3250 0    60   BiDi ~ 0
+NC_1
+Wire Wire Line
+	4050 3250 4100 3250
+Text GLabel 7200 3250 2    60   BiDi ~ 0
+NC_2
+Wire Wire Line
+	7100 3300 7150 3300
+Wire Wire Line
+	7150 3300 7150 3250
+Wire Wire Line
+	7150 3250 7200 3250
+Wire Wire Line
+	7550 3150 7550 3200
+Wire Wire Line
+	7550 3200 7650 3200
+Wire Wire Line
+	7100 4400 7200 4400
+Wire Wire Line
+	7200 4400 7200 4900
+Wire Wire Line
+	7100 4500 7100 4750
+Text GLabel 7200 4900 3    60   BiDi ~ 0
+NC_3
+Text GLabel 7050 4900 3    60   BiDi ~ 0
+NC_4
+Wire Wire Line
+	7100 4750 7050 4750
+Wire Wire Line
+	7050 4750 7050 4900
+Text GLabel 4000 4500 0    60   BiDi ~ 0
+NC_5
+Wire Wire Line
+	4000 4500 4100 4500
+$Comp
+L CONN_5 P?
+U 1 1 53A2540D
+P 4050 6350
+F 0 "P?" V 4000 6350 50  0000 C CNN
+F 1 "Unused_Pins" V 4100 6350 50  0000 C CNN
+F 2 "" H 4050 6350 60  0000 C CNN
+F 3 "" H 4050 6350 60  0000 C CNN
+	1    4050 6350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4700 6050 2    60   BiDi ~ 0
+NC_1
+Text GLabel 4700 6200 2    60   BiDi ~ 0
+NC_2
+Text GLabel 4700 6350 2    60   BiDi ~ 0
+NC_3
+Text GLabel 4700 6500 2    60   BiDi ~ 0
+NC_4
+Text GLabel 4700 6650 2    60   BiDi ~ 0
+NC_5
+Wire Wire Line
+	4450 6150 4550 6150
+Wire Wire Line
+	4550 6150 4550 6050
+Wire Wire Line
+	4550 6050 4700 6050
+Wire Wire Line
+	4450 6250 4600 6250
+Wire Wire Line
+	4600 6250 4600 6200
+Wire Wire Line
+	4600 6200 4700 6200
+Wire Wire Line
+	4450 6350 4700 6350
+Wire Wire Line
+	4450 6450 4600 6450
+Wire Wire Line
+	4600 6450 4600 6500
+Wire Wire Line
+	4600 6500 4700 6500
+Wire Wire Line
+	4450 6550 4550 6550
+Wire Wire Line
+	4550 6550 4550 6650
+Wire Wire Line
+	4550 6650 4700 6650
 $EndSCHEMATC
