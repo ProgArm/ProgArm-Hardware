@@ -31,12 +31,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:stm32
 LIBS:microsd_socket_spi
-LIBS:bmp085
+LIBS:hmc5883l
 LIBS:mpu6050
 LIBS:motor
+LIBS:bmp085
+LIBS:bluetooth
 LIBS:ltc
-LIBS:hmc5883l
-LIBS:R2C2_bluetooth
 LIBS:ProgArm-cache
 EELAYER 27 0
 EELAYER END
