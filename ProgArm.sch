@@ -235,7 +235,7 @@ F 3 "" H 14650 10150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 14700 6700 0    60   Output ~ 0
-MPU_INT
+~MPU_INT
 $Comp
 L R R12
 U 1 1 52C1983B
@@ -347,7 +347,7 @@ F 3 "~" H 1150 10300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7750 4300 2    60   Input ~ 0
-MPU_INT
+~MPU_INT
 $Comp
 L GND #PWR016
 U 1 1 52C1C155
@@ -647,7 +647,7 @@ $EndComp
 Text GLabel 8350 3850 2    60   Output ~ 0
 ~BT_PWR_ENABLE
 Text GLabel 7200 3500 2    60   Input ~ 0
-ALERT
+~ALERT
 $Comp
 L LTC2942-1 U4
 U 1 1 52DA8337
@@ -697,7 +697,7 @@ SDA
 Text GLabel 8650 8450 0    60   Input ~ 0
 SCL
 Text GLabel 8650 8300 0    60   Output ~ 0
-ALERT
+~ALERT
 $Comp
 L +5V #PWR029
 U 1 1 52E2F3A0
@@ -1233,9 +1233,9 @@ F 3 "~" H 12600 8450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 12800 7450 1    60   Output ~ 0
-HMC_INT
+~HMC_INT
 Text GLabel 7750 4450 2    60   Input ~ 0
-HMC_INT
+~HMC_INT
 $Comp
 L GND #PWR044
 U 1 1 5309384B
