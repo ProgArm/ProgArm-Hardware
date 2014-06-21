@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sat 21 Jun 2014 09:52:28 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 02:32:08 AM EEST
 
 BeginCmp
 TimeStamp = /52C1D44E;
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /539601D2;
 Reference = FW/RST1;
 ValeurCmp = SW_PUSH;
-IdModule  = 1pin;
+IdModule  = smd_microswitch;
 EndCmp
 
 BeginCmp
@@ -263,7 +263,7 @@ BeginCmp
 TimeStamp = /52C1F63D;
 Reference = L3;
 ValeurCmp = INDUCTOR;
-IdModule  = 1pin;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -326,7 +326,7 @@ BeginCmp
 TimeStamp = /539270FC;
 Reference = P8;
 ValeurCmp = CONN_6;
-IdModule  = 1pin;
+IdModule  = microusb-hw-mc-5f-02;
 EndCmp
 
 BeginCmp
@@ -669,14 +669,14 @@ BeginCmp
 TimeStamp = /53939AF0;
 Reference = SW1;
 ValeurCmp = ON/OFF;
-IdModule  = 1pin;
+IdModule  = msk1103;
 EndCmp
 
 BeginCmp
 TimeStamp = /539F1B21;
 Reference = SW2;
 ValeurCmp = SWITCH_INV;
-IdModule  = 1pin;
+IdModule  = msk1103;
 EndCmp
 
 BeginCmp
