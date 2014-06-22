@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 02:32:08 AM EEST
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 04:29:36 AM EEST
 
 BeginCmp
 TimeStamp = /52C1D44E;
@@ -256,13 +256,13 @@ BeginCmp
 TimeStamp = /53936007;
 Reference = L2;
 ValeurCmp = 2.2uH;
-IdModule  = 1pin;
+IdModule  = inductor_smd_6.5x4.8mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1F63D;
 Reference = L3;
-ValeurCmp = INDUCTOR;
+ValeurCmp = Ferrite_Bead;
 IdModule  = SM0805;
 EndCmp
 
@@ -325,7 +325,7 @@ EndCmp
 BeginCmp
 TimeStamp = /539270FC;
 Reference = P8;
-ValeurCmp = CONN_6;
+ValeurCmp = Ring_Port;
 IdModule  = microusb-hw-mc-5f-02;
 EndCmp
 
@@ -645,13 +645,6 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C1983B;
-Reference = R33;
-ValeurCmp = 10k;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E3182F;
 Reference = R34;
 ValeurCmp = 100k;
@@ -683,14 +676,14 @@ BeginCmp
 TimeStamp = /53A4CA76;
 Reference = U1;
 ValeurCmp = STM32F103R;
-IdModule  = 1pin;
+IdModule  = lqfp64;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DA8337;
 Reference = U2;
 ValeurCmp = LTC2942-1;
-IdModule  = 1pin;
+IdModule  = dfn6;
 EndCmp
 
 BeginCmp
@@ -704,7 +697,7 @@ BeginCmp
 TimeStamp = /5308E5FF;
 Reference = U4;
 ValeurCmp = HMC5883L;
-IdModule  = 1pin;
+IdModule  = hmc5883l;
 EndCmp
 
 BeginCmp
@@ -725,7 +718,7 @@ BeginCmp
 TimeStamp = /52C1CF17;
 Reference = X2;
 ValeurCmp = 8 mHz;
-IdModule  = 1pin;
+IdModule  = crystal_smd_5x3.2mm;
 EndCmp
 
 EndListe

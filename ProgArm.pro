@@ -58,6 +58,9 @@ LibName32=modules/smd_microswitch
 LibName33=walter/w_smd_diode
 LibName34=walter/w_rf_modules
 LibName35=walter/w_smd_trans
+LibName36=walter/w_smd_lqfp
+LibName37=walter/w_crystal
+LibName38=walter/w_smd_inductors
 LibDir=
 [eeschema]
 version=1
