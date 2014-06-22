@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 04:29:36 AM EEST
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 05:22:41 AM EEST
 
 BeginCmp
 TimeStamp = /52C1D44E;
@@ -207,7 +207,7 @@ BeginCmp
 TimeStamp = /53938FF3;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = Led_0603;
 EndCmp
 
 BeginCmp
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /53934B0A;
 Reference = L1;
 ValeurCmp = 3.3uH;
-IdModule  = 1pin;
+IdModule  = inductor_smd_6.5x4.8mm;
 EndCmp
 
 BeginCmp
