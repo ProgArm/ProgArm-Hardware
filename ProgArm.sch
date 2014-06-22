@@ -46,7 +46,7 @@ encoding utf-8
 Sheet 1 1
 Title "ProgArm"
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 "Under GNU General Public License (either version 3 of the License, or any later version)"
 Comment2 "                 and Alex-Daniel Jakimenko <alex.jakimenko@gmail.com>"

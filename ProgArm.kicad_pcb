@@ -3,7 +3,7 @@
   (general
     (links 271)
     (no_connects 271)
-    (area 30.299756 0.10988 102.158422 59.32739)
+    (area 50.299756 49.949999 165.050001 120.050001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -13,6 +13,15 @@
   )
 
   (page A4)
+  (title_block 
+    (title ProgArm)
+    (rev 0.2)
+    (comment 1 "Under GNU General Public License (either version 3 of the License, or any later version)")
+    (comment 2 "                 and Alex-Daniel Jakimenko <alex.jakimenko@gmail.com>")
+    (comment 3 "Copyright (C)  2014 Alexandr Boldin <alexandr.boldin@gmail.com>")
+    (comment 4 "This file is part of ProgArm.")
+  )
+
   (layers
     (15 F.Cu signal)
     (0 B.Cu signal)
