@@ -3,6 +3,7 @@ Thumbs.db
 *.bck
 desktop.ini
 _autosave*
+*.kicad_pcb-bak
 
 ## generic files to ignore
 *~
