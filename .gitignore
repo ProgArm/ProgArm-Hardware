@@ -2,6 +2,7 @@ Thumbs.db
 *.bak
 *.bck
 desktop.ini
+_autosave*
 
 ## generic files to ignore
 *~
