@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 05:22:41 AM EEST
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sun 22 Jun 2014 06:26:56 AM EEST
 
 BeginCmp
 TimeStamp = /52C1D44E;
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /539C9DFC;
 Reference = P2;
 ValeurCmp = I2C_Solder;
-IdModule  = 1pin;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
@@ -298,21 +298,21 @@ BeginCmp
 TimeStamp = /539C9BD2;
 Reference = P4;
 ValeurCmp = SPI_Solder;
-IdModule  = 1pin;
+IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A12C84;
 Reference = P5;
 ValeurCmp = JTAG_Interface;
-IdModule  = 1pin;
+IdModule  = pin_array_4x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A33438;
 Reference = P6;
 ValeurCmp = Unused_Pins;
-IdModule  = 1pin;
+IdModule  = PIN_ARRAY_5x1;
 EndCmp
 
 BeginCmp
