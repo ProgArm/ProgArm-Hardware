@@ -1,3 +1,4 @@
-*.sch     filter=cleansch
-*.lib     filter=cleanlib
-*.pro     filter=cleanpro
+*.sch       filter=cleansch
+*.lib       filter=cleanlib
+*.kicad_pcb filter=cleanpcb
+*.pro       filter=cleanpro
