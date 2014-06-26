@@ -1,6 +1,7 @@
 Thumbs.db
 *.bak
 *.bck
+*.bin
 desktop.ini
 _autosave*
 *.kicad_pcb-bak
