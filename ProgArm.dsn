@@ -1,9 +1,9 @@
-(pcb "C:\Users\Alexandr\Desktop\ProgArm-Hardware\ProgArm.dsn"
+(pcb "/home/alex/git/ProgArm-Hardware/ProgArm.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(2013-07-07 BZR 4022)-stable")
+    (host_version "(2013-dec-23)-stable")
   )
   (resolution um 10)
   (unit um)
@@ -65,7 +65,7 @@
     (component SM0805
       (place L3 133750 -57750 front 90 (PN Ferrite_Bead))
       (place C13 131500 -61250 front 270 (PN 4.7uF))
-      (place C20 135500 -98000 front 270 (PN 10uF))
+      (place C20 136271 -98044 front 90 (PN 10uF))
       (place C19 149500 -65500 front 270 (PN 10uF))
       (place C17 134750 -73500 front 270 (PN 10uF))
       (place C21 126500 -115000 front 270 (PN 4.7uF))
@@ -130,15 +130,15 @@
       (place P5 162250 -85500 front 90 (PN JTAG_Interface))
     )
     (component pin_array_3x2
-      (place P4 162000 -110500 front 270 (PN SPI_Solder))
+      (place P4 162052 -110617 front 270 (PN SPI_Solder))
     )
     (component PIN_ARRAY_2X2
-      (place P2 162000 -104250 front 270 (PN I2C_Solder))
+      (place P2 162052 -104267 front 270 (PN I2C_Solder))
     )
     (component PIN_ARRAY_2X1
-      (place BZ1 126500 -88750 front 90 (PN PIEZZO))
-      (place M1 126500 -93750 front 90 (PN MOTOR))
-      (place BT2 126500 -98750 front 90 (PN "3.7V Li-ion"))
+      (place BZ1 126492 -88646 front 90 (PN PIEZZO))
+      (place M1 126492 -93726 front 90 (PN MOTOR))
+      (place BT2 126492 -98806 front 90 (PN "3.7V Li-ion"))
       (place BT1 151750 -83500 front 270 (PN 3v))
     )
     (component msk1103
@@ -174,7 +174,7 @@
       (place U4 127250 -111250 front 270 (PN HMC5883L))
     )
     (component dfn6
-      (place U2 132750 -98000 front 180 (PN "LTC2942-1"))
+      (place U2 133350 -98171 front 90 (PN "LTC2942-1"))
     )
     (component crystal_smd_5x3.2mm
       (place X2 147750 -71500 front 270 (PN "8 mHz"))
@@ -713,18 +713,13 @@
       (outline (path signal 150  -1000 1500  -800 1500))
       (outline (path signal 150  -1000 1500  -1000 -1500))
       (outline (path signal 150  -1000 -1500  -800 -1500))
-      (pin Rect[B]Pad_1350x1650_um 0 0 0)
-      (pin Round[A]Pad_500_um 0@1 250 -250)
-      (pin Round[A]Pad_500_um 0@2 250 250)
-      (pin Round[A]Pad_500_um 0@3 -250 250)
-      (pin Round[A]Pad_500_um 0@4 -250 -250)
       (pin Rect[T]Pad_250x700_um 1 -500 -1425)
       (pin Rect[T]Pad_250x700_um 2 0 -1425)
       (pin Rect[T]Pad_250x700_um 3 500 -1425)
       (pin Rect[T]Pad_250x700_um 4 500 1425)
       (pin Rect[T]Pad_250x700_um 5 0 1425)
       (pin Rect[T]Pad_250x700_um 6 -500 1425)
-      (pin Rect[T]Pad_1350x1650_um 0@5 0 0)
+      (pin Rect[T]Pad_1350x1650_um 0 0 0)
     )
     (image crystal_smd_5x3.2mm
       (outline (path signal 150  -2200 1600  2200 1600))
@@ -784,11 +779,6 @@
       (shape (circle B.Cu 1524))
       (attach off)
     )
-    (padstack Round[A]Pad_500_um
-      (shape (circle F.Cu 500))
-      (shape (circle B.Cu 500))
-      (attach off)
-    )
     (padstack Oval[T]Pad_800.1x248.92_um
       (shape (path F.Cu 248.92  -275.59 0  275.59 0))
       (attach off)
@@ -796,10 +786,6 @@
     (padstack Oval[A]Pad_700x700_um
       (shape (path F.Cu 700  0 0  0 0))
       (shape (path B.Cu 700  0 0  0 0))
-      (attach off)
-    )
-    (padstack Rect[B]Pad_1350x1650_um
-      (shape (rect B.Cu -675 -825 675 825))
       (attach off)
     )
     (padstack Rect[T]Pad_2499.36x2499.36_um
