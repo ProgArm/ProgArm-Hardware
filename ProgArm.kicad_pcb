@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2013-dec-23)-stable")
 
   (general
     (links 289)
@@ -2624,7 +2624,7 @@
   )
 
   (module pin_array_3x2   placed (layer F.Cu) (tedit 42931587) (tstamp 53A66FD3)
-    (at 162 110.5 270)
+    (at 162.052 110.617 270)
     (descr "Double rangee de contacts 2 x 4 pins")
     (tags CONN)
     (path /539C9BD2)
@@ -2670,7 +2670,7 @@
   )
 
   (module PIN_ARRAY_2X2   placed (layer F.Cu) (tedit 3FAB87D4) (tstamp 53A67000)
-    (at 162 104.25 270)
+    (at 162.052 104.267 270)
     (descr "Double rangee de contacts 2 x 2 pins")
     (tags CONN)
     (path /539C9DFC)
@@ -2708,7 +2708,7 @@
   )
 
   (module PIN_ARRAY_2X1   placed (layer F.Cu) (tedit 4565C520) (tstamp 53A67100)
-    (at 126.5 88.75 90)
+    (at 126.492 88.646 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53A4E01A)
@@ -2738,7 +2738,7 @@
   )
 
   (module PIN_ARRAY_2X1   placed (layer F.Cu) (tedit 4565C520) (tstamp 53A670F5)
-    (at 126.5 93.75 90)
+    (at 126.492 93.726 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53A5A9DE)
@@ -2768,7 +2768,7 @@
   )
 
   (module PIN_ARRAY_2X1   placed (layer F.Cu) (tedit 4565C520) (tstamp 53A670EA)
-    (at 126.5 98.75 90)
+    (at 126.492 98.806 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /52D6D05B)
