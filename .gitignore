@@ -2,6 +2,7 @@ Thumbs.db
 *.bak
 *.bck
 *.bin
+*.rules
 desktop.ini
 _autosave*
 *.kicad_pcb-bak
