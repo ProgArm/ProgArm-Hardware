@@ -50,7 +50,7 @@ Rev "0.2"
 Comp ""
 Comment1 "Under GNU General Public License (either version 3 of the License, or any later version)"
 Comment2 "                 and Alex-Daniel Jakimenko <alex.jakimenko@gmail.com>"
-Comment3 "Copyright (C)  2014 Alexandr Boldin <alexandr.boldin@gmail.com>"
+Comment3 "Copyright (C)  2014 Alexandr Boldin <boldin.alexandr@gmail.com>"
 Comment4 "This file is part of ProgArm."
 $EndDescr
 $Comp
