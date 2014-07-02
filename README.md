@@ -1,6 +1,6 @@
 ProgArm-Hardware
 ================
-**NB! This project is in active development and things are changing all the time. Gerber files are currently outdated.**
+**NB! This project is in active development and things are changing all the time.**
 
 Please set up these filters before commiting to this repository:
 ```
