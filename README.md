@@ -24,7 +24,7 @@ License
 -------
 [According to](https://www.gnu.org/licenses/gpl-faq.html#GPLOtherThanSoftware) Free Software Foundation, GPL license can be applied to anything as long as we can clearly define 'source code'. In this repository all Kicad files are considered as source code files (*.sch *.kicad_pcb *.lib *.mod and several others). You must provide these files (or their modifications) if you are distributing any work based on this project. Please refer to [LICENSE](https://github.com/ProgArm/ProgArm-Hardware/blob/master/LICENSE) file for details.
 
-    ProgArm is free hardware&software: you can redistribute it and/or modify
+    ProgArm is free hardware & software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
