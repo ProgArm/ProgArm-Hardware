@@ -3,7 +3,7 @@ ProgArm-Hardware
 
 **NB! This project is in active development and things are changing all the time.**
 
-This repository cointains only schematic and PCB files. Schematic PDF and Gerber files are attached to every [release](https://github.com/ProgArm/ProgArm-Hardware/releases).
+This repository contains only schematic and PCB files. Schematic PDF and Gerber files are attached to every [release](https://github.com/ProgArm/ProgArm-Hardware/releases).
 
 You can find other files used in ProgArm project [in other repositories](https://github.com/ProgArm). 
 
