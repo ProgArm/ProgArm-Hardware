@@ -134,10 +134,6 @@ F 3 "~" H 1000 3350 30  0000 C CNN
 	1    1000 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 12400 7150 1    60   BiDi ~ 0
-SDA
-Text GLabel 12600 7150 1    60   Input ~ 0
-SCL
 Text GLabel 14350 7050 1    60   BiDi ~ 0
 SDA
 Text GLabel 14550 7050 1    60   Input ~ 0
@@ -146,50 +142,6 @@ Text GLabel 10700 10550 2    60   BiDi ~ 0
 SDA
 Text GLabel 10450 10650 2    60   Input ~ 0
 SCL
-$Comp
-L CAPAPOL C21
-U 1 1 52C18A66
-P 12400 9250
-F 0 "C21" H 12450 9350 40  0000 L CNN
-F 1 "4.7uF" H 12450 9150 40  0000 L CNN
-F 2 "~" H 12500 9100 30  0000 C CNN
-F 3 "~" H 12400 9250 300 0000 C CNN
-	1    12400 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR59
-U 1 1 52C18A75
-P 12400 9600
-F 0 "#PWR59" H 12400 9600 30  0001 C CNN
-F 1 "GND" H 12400 9530 30  0001 C CNN
-F 2 "" H 12400 9600 60  0000 C CNN
-F 3 "" H 12400 9600 60  0000 C CNN
-	1    12400 9600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C22
-U 1 1 52C18C15
-P 12800 9250
-F 0 "C22" H 12800 9350 40  0000 L CNN
-F 1 "220nF" H 12806 9165 40  0000 L CNN
-F 2 "~" H 12838 9100 30  0000 C CNN
-F 3 "~" H 12800 9250 60  0000 C CNN
-	1    12800 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR65
-U 1 1 52C18D7A
-P 13550 8350
-F 0 "#PWR65" H 13550 8350 30  0001 C CNN
-F 1 "GND" H 13550 8280 30  0001 C CNN
-F 2 "" H 13550 8350 60  0000 C CNN
-F 3 "" H 13550 8350 60  0000 C CNN
-	1    13550 8350
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR47
 U 1 1 52C18F06
@@ -876,8 +828,6 @@ Text GLabel 15900 8050 1    60   Input ~ 0
 SYS_POWER
 Text GLabel 9050 10300 1    60   Input ~ 0
 SYS_POWER
-Text GLabel 11700 7750 1    60   Input ~ 0
-SYS_POWER
 Text GLabel 8100 5550 1    60   Input ~ 0
 SYS_POWER
 $Comp
@@ -1199,19 +1149,6 @@ Text Label 11300 2400 1    60   ~ 0
 ~LED_G
 Text Label 11300 3150 1    60   ~ 0
 ~LED_B
-$Comp
-L HMC5883L U4
-U 1 1 5308E5FF
-P 12600 8150
-F 0 "U4" H 12600 8050 60  0000 C CNN
-F 1 "HMC5883L" H 12600 8300 60  0000 C CNN
-F 2 "~" H 12600 8150 60  0000 C CNN
-F 3 "~" H 12600 8150 60  0000 C CNN
-	1    12600 8150
-	1    0    0    -1  
-$EndComp
-Text GLabel 12800 7150 1    60   Output ~ 0
-~HMC_INT
 Text GLabel 7750 4450 2    60   Input ~ 0
 ~HMC_INT
 $Comp
@@ -2210,8 +2147,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 5650 8100 5650
 Wire Wire Line
-	12800 7150 12800 7350
-Wire Wire Line
 	7100 2850 7150 2850
 Wire Wire Line
 	7100 2750 7350 2750
@@ -2220,36 +2155,6 @@ Wire Wire Line
 Connection ~ 3700 750 
 Wire Wire Line
 	3100 750  4100 750 
-Wire Wire Line
-	12800 9050 12800 8950
-Wire Wire Line
-	12800 9600 12800 9450
-Wire Wire Line
-	12600 9600 12800 9600
-Wire Wire Line
-	12600 8950 12600 9600
-Wire Wire Line
-	12400 9450 12400 9600
-Wire Wire Line
-	12400 8950 12400 9050
-Connection ~ 13400 8150
-Wire Wire Line
-	13550 8150 13550 8350
-Wire Wire Line
-	13400 8150 13550 8150
-Wire Wire Line
-	13400 8050 13400 8250
-Connection ~ 11700 8150
-Wire Wire Line
-	11700 8350 11800 8350
-Wire Wire Line
-	11700 7750 11700 8350
-Wire Wire Line
-	11800 7950 11700 7950
-Wire Wire Line
-	12400 7150 12400 7350
-Wire Wire Line
-	12600 7150 12600 7350
 Wire Wire Line
 	14400 4300 14400 4700
 Wire Wire Line
@@ -2891,8 +2796,6 @@ Connection ~ 2900 3250
 Wire Wire Line
 	2900 3700 2900 3800
 Wire Wire Line
-	11800 8150 11700 8150
-Wire Wire Line
 	1050 7550 1050 7800
 Wire Wire Line
 	1050 7800 1000 7800
@@ -2929,7 +2832,6 @@ Wire Wire Line
 	3200 3550 4100 3550
 Wire Wire Line
 	3200 3650 4100 3650
-Connection ~ 11700 7950
 Wire Wire Line
 	5700 6200 5700 6700
 Wire Wire Line
