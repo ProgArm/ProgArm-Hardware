@@ -1750,8 +1750,6 @@ F 3 "" H 650 6950 60  0000 C CNN
 	1    650  6950
 	-1   0    0    -1  
 $EndComp
-Text GLabel 900  2950 1    60   Input ~ 0
-SYS_POWER
 $Comp
 L SWITCH_INV SW2
 U 1 1 539F1B21
@@ -3246,4 +3244,15 @@ Connection ~ 2000 1950
 Connection ~ 1500 1950
 Wire Wire Line
 	2000 2350 2000 2500
+$Comp
+L +3.3V #PWR?
+U 1 1 5460F77B
+P 900 2950
+F 0 "#PWR?" H 900 2910 30  0001 C CNN
+F 1 "+3.3V" H 900 3060 30  0000 C CNN
+F 2 "" H 900 2950 60  0000 C CNN
+F 3 "" H 900 2950 60  0000 C CNN
+	1    900  2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
