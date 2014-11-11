@@ -3255,4 +3255,16 @@ F 3 "" H 900 2950 60  0000 C CNN
 	1    900  2950
 	1    0    0    -1  
 $EndComp
+Text Notes 1200 8600 0    60   ~ 0
+TODO Remove unnecessary\njtag pins, leave only SWD
+Text Notes 9250 11050 0    60   ~ 0
+TODO Replace with BMP180 (?)
+Text Notes 9100 7950 0    60   ~ 0
+TODO Replace with bq27410
+Text Notes 3900 7900 0    60   ~ 0
+TODO Replace with bq24297
+Text Notes 13300 7300 0    60   ~ 0
+TODO Replace\nwith MPU9150 (?)
+Text Notes 8950 1050 0    60   ~ 0
+TODO Replace with nRF51822
 $EndSCHEMATC
