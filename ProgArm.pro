@@ -127,3 +127,4 @@ LibName36=contrib
 LibName37=valves
 LibName38=stm32
 LibName39=library/barometers
+LibName40=library/Texas Instruments
