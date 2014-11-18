@@ -1,5 +1,7 @@
 EESchema Schematic File Version 2
+LIBS:barometers
 LIBS:bluetooth
+LIBS:bq
 LIBS:hmc5883l
 LIBS:ltc
 LIBS:microsd_socket_spi
@@ -37,8 +39,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
-LIBS:barometers
-LIBS:Texas Instruments
 LIBS:ProgArm-cache
 EELAYER 27 0
 EELAYER END
