@@ -3554,7 +3554,7 @@ F 3 "" H 9550 7250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9550 7000 9550 7250
-Text GLabel 9850 6150 1    60   Input ~ 0
+Text GLabel 9850 6150 1    60   Output ~ 0
 BT_AVDD
 Wire Wire Line
 	12350 7600 12100 7600
