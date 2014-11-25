@@ -1187,9 +1187,7 @@ F 3 "" H 5600 4900 60  0000 C CNN
 	1    5600 4900
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	7500 3700 7600 3800
-Text Label 7150 3700 0    60   ~ 0
+Text Label 7150 2450 0    60   ~ 0
 SD_CD
 Text GLabel 1650 6500 2    60   Input ~ 0
 NSS2
@@ -2434,8 +2432,6 @@ Connection ~ 5600 1150
 Wire Wire Line
 	5600 1050 5600 1150
 Wire Wire Line
-	7500 3700 7100 3700
-Wire Wire Line
 	1650 6500 1450 6500
 Wire Wire Line
 	1450 6500 1450 6800
@@ -3439,7 +3435,7 @@ Entry Wire Line
 Entry Wire Line
 	7700 2350 7800 2250
 Wire Bus Line
-	7800 900  7800 2250
+	7800 900  7800 2350
 Wire Bus Line
 	7800 900  9100 900 
 Wire Bus Line
@@ -3726,4 +3722,8 @@ Text Label 12250 7500 0    60   ~ 0
 IO
 Text Label 12250 7400 0    60   ~ 0
 CLK
+Entry Wire Line
+	7700 2450 7800 2350
+Wire Wire Line
+	7700 2450 7100 2450
 $EndSCHEMATC
