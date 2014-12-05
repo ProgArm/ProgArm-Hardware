@@ -3651,4 +3651,6 @@ Connection ~ 6550 5900
 Wire Wire Line
 	5800 5900 5950 5900
 Connection ~ 5850 5750
+Text Notes 14100 7050 0    60   ~ 0
+ISSUE: To manage those pull-ups/downs
 $EndSCHEMATC
