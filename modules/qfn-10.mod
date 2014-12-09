@@ -1,0 +1,90 @@
+PCBNEW-LibModule-V1  Tue 09 Dec 2014 02:22:19 AM EET
+# encoding utf-8
+Units mm
+$INDEX
+QFN-10
+$EndINDEX
+$MODULE QFN-10
+Po 0 0 0 15 548640A6 00000000 ~~
+Li QFN-10
+Sc 0
+AR 
+Op 0 0 0
+T0 0 1.9 0.5 0.5 0 0.125 N V 21 N "QFN-10"
+T1 0 -1.8 0.5 0.5 0 0.125 N V 21 N "VAL**"
+DS -1 -1 1 -1 0.15 21
+DS 1 -1 1 1 0.15 21
+DS 1 1 -1 1 0.15 21
+DS -1 1 -1 -1 0.15 21
+$PAD
+Sh "1" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -0.75
+$EndPAD
+$PAD
+Sh "2" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -0.25
+$EndPAD
+$PAD
+Sh "3" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 0.25
+$EndPAD
+$PAD
+Sh "4" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 0.75
+$EndPAD
+$PAD
+Sh "5" R 0.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.95
+$EndPAD
+$PAD
+Sh "6" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 0.75
+$EndPAD
+$PAD
+Sh "7" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 0.25
+$EndPAD
+$PAD
+Sh "8" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 0.25
+$EndPAD
+$PAD
+Sh "9" R 0.8 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -0.75
+$EndPAD
+$PAD
+Sh "10" R 0.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.95
+$EndPAD
+$EndMODULE QFN-10
+$EndLIBRARY
