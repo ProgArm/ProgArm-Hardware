@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Tue 09 Dec 2014 02:22:19 AM EET
+PCBNEW-LibModule-V1  09.12.2014 22:24:20
 # encoding utf-8
 Units mm
 $INDEX
 QFN-10
 $EndINDEX
 $MODULE QFN-10
-Po 0 0 0 15 548640A6 00000000 ~~
+Po 0 0 0 15 54877681 00000000 ~~
 Li QFN-10
 Sc 0
 AR 
@@ -70,7 +70,7 @@ Sh "8" R 0.8 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.95 0.25
+Po 0.95 -0.25
 $EndPAD
 $PAD
 Sh "9" R 0.8 0.3 0 0 0
