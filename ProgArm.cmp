@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08.12.2014 23:27:11
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Tue 09 Dec 2014 03:53:01 AM EET
 
 BeginCmp
 TimeStamp = /547E5E7E;
 Reference = A1;
 ValeurCmp = ANT;
-IdModule  = pin_array_12x2;
+IdModule  = 2450AT43F0100E;
 EndCmp
 
 BeginCmp
 TimeStamp = /547E33FE;
 Reference = B1;
 ValeurCmp = 8001_BALUN;
-IdModule  = pin_array_12x2;
+IdModule  = 2450BM14A0002T;
 EndCmp
 
 BeginCmp
@@ -319,14 +319,14 @@ BeginCmp
 TimeStamp = /5472A3A1;
 Reference = L1;
 ValeurCmp = 2.2uH;
-IdModule  = pin_array_12x2;
+IdModule  = LQH43PB2R2M26;
 EndCmp
 
 BeginCmp
 TimeStamp = /53934B0A;
 Reference = L2;
 ValeurCmp = 2.2uH;
-IdModule  = pin_array_12x2;
+IdModule  = LQH43PB2R2M26;
 EndCmp
 
 BeginCmp
@@ -865,14 +865,14 @@ BeginCmp
 TimeStamp = /546A60C0;
 Reference = U6;
 ValeurCmp = BQ27410;
-IdModule  = pin_array_12x2;
+IdModule  = bq27410-g1;
 EndCmp
 
 BeginCmp
 TimeStamp = /547F51A2;
 Reference = U7;
 ValeurCmp = SI1143;
-IdModule  = pin_array_12x2;
+IdModule  = QFN-10;
 EndCmp
 
 BeginCmp
@@ -893,7 +893,7 @@ BeginCmp
 TimeStamp = /52C1CA15;
 Reference = X1;
 ValeurCmp = 32.768kHz;
-IdModule  = pin_array_12x2;
+IdModule  = crystal_32.768kHz_SMD;
 EndCmp
 
 BeginCmp
@@ -907,7 +907,7 @@ BeginCmp
 TimeStamp = /54745013;
 Reference = X3;
 ValeurCmp = 16MHz;
-IdModule  = pin_array_12x2;
+IdModule  = crystal_16MHz_SMD;
 EndCmp
 
 EndListe
