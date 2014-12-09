@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Tue 09 Dec 2014 03:53:01 AM EET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09.12.2014 22:49:51
 
 BeginCmp
 TimeStamp = /547E5E7E;
@@ -480,56 +480,56 @@ BeginCmp
 TimeStamp = /53A5AE10;
 Reference = Q1;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5AEB2;
 Reference = Q2;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5AF2A;
 Reference = Q3;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5AF37;
 Reference = Q4;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5AF51;
 Reference = Q5;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /547E6E7B;
 Reference = Q6;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5AF11;
 Reference = Q7;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5AEEE;
 Reference = Q8;
 ValeurCmp = MOS_P;
-IdModule  = pin_array_12x2;
+IdModule  = SOT-723;
 EndCmp
 
 BeginCmp
@@ -844,7 +844,7 @@ BeginCmp
 TimeStamp = /5472808D;
 Reference = U3;
 ValeurCmp = LM3668;
-IdModule  = pin_array_12x2;
+IdModule  = LM3668;
 EndCmp
 
 BeginCmp

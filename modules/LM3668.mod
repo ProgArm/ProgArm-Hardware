@@ -1,0 +1,111 @@
+PCBNEW-LibModule-V1  09.12.2014 22:44:53
+# encoding utf-8
+Units mm
+$INDEX
+LM3668
+$EndINDEX
+$MODULE LM3668
+Po 0 0 0 15 54877B56 00000000 ~~
+Li LM3668
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.25 3.05 0.5 0.5 0 0.05 N V 21 N "LM3668"
+T1 -0.25 -2.25 0.5 0.5 0 0.05 N V 21 N "VAL**"
+DS -1.75 -1.175 1.25 -1.175 0.15 21
+DS 1.25 -1.175 1.25 1.825 0.15 21
+DS 1.25 1.825 -1.75 1.825 0.15 21
+DS -1.75 1.825 -1.75 -1.175 0.15 21
+$PAD
+Sh "1" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -1.075
+$EndPAD
+$PAD
+Sh "2" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.35 -1.075
+$EndPAD
+$PAD
+Sh "3" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.05 -1.075
+$EndPAD
+$PAD
+Sh "4" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.45 -1.075
+$EndPAD
+$PAD
+Sh "5" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.85 -1.075
+$EndPAD
+$PAD
+Sh "6" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -1.075
+$EndPAD
+$PAD
+Sh "7" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 1.725
+$EndPAD
+$PAD
+Sh "8" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.85 1.725
+$EndPAD
+$PAD
+Sh "9" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.45 1.725
+$EndPAD
+$PAD
+Sh "10" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.05 1.725
+$EndPAD
+$PAD
+Sh "11" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.35 1.725
+$EndPAD
+$PAD
+Sh "12" R 0.2 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 1.725
+$EndPAD
+$PAD
+Sh "0" R 2.2 1.68 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 0.325
+$EndPAD
+$EndMODULE LM3668
+$EndLIBRARY
