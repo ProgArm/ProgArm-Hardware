@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09.12.2014 22:49:51
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 10 Dec 2014 02:38:31 AM EET
 
 BeginCmp
 TimeStamp = /547E5E7E;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /52D6D05B;
 Reference = BT1;
 ValeurCmp = 3.7V Li-ion;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_2;
 EndCmp
 
 BeginCmp
@@ -361,112 +361,112 @@ BeginCmp
 TimeStamp = /54822800;
 Reference = P1;
 ValeurCmp = I²C_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_4;
 EndCmp
 
 BeginCmp
 TimeStamp = /539C93CC;
 Reference = P2;
 ValeurCmp = SPI_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /5482A400;
 Reference = P3;
 ValeurCmp = UART_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_4;
 EndCmp
 
 BeginCmp
 TimeStamp = /5465225A;
 Reference = P4;
 ValeurCmp = SWD_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_4;
 EndCmp
 
 BeginCmp
 TimeStamp = /5482BAE6;
 Reference = P5;
 ValeurCmp = GPIOA_1_2_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5482AF67;
 Reference = P6;
 ValeurCmp = TIM1_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /547B9461;
 Reference = P7;
 ValeurCmp = T_SENS;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /548259BF;
 Reference = P8;
 ValeurCmp = RING_IR_OUT;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54824D0C;
 Reference = P9;
 ValeurCmp = RING_LEDS_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /547E9AF8;
 Reference = P10;
 ValeurCmp = TXD;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54826928;
 Reference = P11;
 ValeurCmp = RING_VCC;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54826937;
 Reference = P12;
 ValeurCmp = RING_GND;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5482BB00;
 Reference = P13;
 ValeurCmp = RING_GPIOA_3_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54826154;
 Reference = P14;
 ValeurCmp = RING_GPIOA_4_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /547E9AC3;
 Reference = P15;
 ValeurCmp = RXD;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5482656C;
 Reference = P16;
 ValeurCmp = RING_BUTTONS_Port;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_HEADER_1.27_2;
 EndCmp
 
 BeginCmp
