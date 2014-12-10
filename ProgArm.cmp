@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10.12.2014 3:25:02
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 10 Dec 2014 05:41:17 AM EET
 
 BeginCmp
-TimeStamp = /547E5E7E;
+TimeStamp = /5487C6FB;
 Reference = A1;
 ValeurCmp = ANT;
 IdModule  = 2450AT43F0100E;
@@ -424,7 +424,7 @@ BeginCmp
 TimeStamp = /547E9AF8;
 Reference = P10;
 ValeurCmp = TXD;
-IdModule  = PIN_HEADER_1.27_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
@@ -459,7 +459,7 @@ BeginCmp
 TimeStamp = /547E9AC3;
 Reference = P15;
 ValeurCmp = RXD;
-IdModule  = PIN_HEADER_1.27_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
