@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 10 Dec 2014 04:23:15 AM EET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10.12.2014 3:25:02
 
 BeginCmp
 TimeStamp = /547E5E7E;
@@ -291,21 +291,21 @@ BeginCmp
 TimeStamp = /547F750C;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = PIN_ARRAY_30X2;
+IdModule  = Led_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547F74EE;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = PIN_ARRAY_30X2;
+IdModule  = Led_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E30BBB;
 Reference = D4;
 ValeurCmp = DIODE;
-IdModule  = PIN_ARRAY_30X2;
+IdModule  = sod523;
 EndCmp
 
 BeginCmp
@@ -711,14 +711,14 @@ BeginCmp
 TimeStamp = /546A7B4F;
 Reference = R26;
 ValeurCmp = R;
-IdModule  = pin_array_12x2;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /547F9BB0;
 Reference = R27;
 ValeurCmp = 30R;
-IdModule  = pin_array_12x2;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
