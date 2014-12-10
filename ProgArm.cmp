@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 10 Dec 2014 03:31:27 AM EET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10.12.2014 2:08:46
 
 BeginCmp
 TimeStamp = /547E5E7E;
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /547F4D5F;
 Reference = C7;
 ValeurCmp = 0.03F;
-IdModule  = pin_array_12x2;
+IdModule  = PAS311HR-VA6R;
 EndCmp
 
 BeginCmp
@@ -879,7 +879,7 @@ BeginCmp
 TimeStamp = /5467C07B;
 Reference = U8;
 ValeurCmp = LPS25H;
-IdModule  = pin_array_12x2;
+IdModule  = LPS25H;
 EndCmp
 
 BeginCmp
