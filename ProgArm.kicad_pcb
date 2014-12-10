@@ -3,9 +3,9 @@
   (general
     (links 335)
     (no_connects 324)
-    (area 0 0 0 0)
+    (area 135.848612 31.825 187.724201 67.716561)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 130)
@@ -5035,5 +5035,10 @@
       (net 3 /BT_RXD)
     )
   )
+
+  (gr_line (start 45 95) (end 45 45) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 85 95) (end 45 95) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 85 45) (end 85 95) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 45 45) (end 85 45) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
