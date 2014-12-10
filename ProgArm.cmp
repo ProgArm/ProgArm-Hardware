@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10.12.2014 2:08:46
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 10 Dec 2014 04:23:15 AM EET
 
 BeginCmp
 TimeStamp = /547E5E7E;
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /53A5A9DE;
 Reference = M1;
 ValeurCmp = MOTOR;
-IdModule  = pin_array_12x2;
+IdModule  = vibramotor;
 EndCmp
 
 BeginCmp
