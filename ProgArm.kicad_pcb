@@ -1,8 +1,8 @@
 (kicad_pcb (version 3) (host pcbnew "(25-Oct-2014 BZR 4029)-stable")
 
   (general
-    (links 358)
-    (no_connects 335)
+    (links 363)
+    (no_connects 340)
     (area 44.949999 31.825 187.724201 95.050001)
     (thickness 1.6)
     (drawings 4)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.203)
+    (last_trace_width 0.2)
     (user_trace_width 0.15)
     (user_trace_width 0.203)
     (user_trace_width 0.305)
@@ -51,8 +51,8 @@
     (trace_min 0.15)
     (segment_width 0.2)
     (edge_width 0.1)
-    (via_size 0.889)
-    (via_drill 0.635)
+    (via_size 0.6)
+    (via_drill 0.3)
     (via_min_size 0.5)
     (via_min_drill 0.3)
     (user_via 0.5 0.3)
@@ -204,9 +204,9 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.203)
-    (via_dia 0.889)
-    (via_drill 0.635)
+    (trace_width 0.2)
+    (via_dia 0.6)
+    (via_drill 0.3)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
     (add_net "")
@@ -315,9 +315,9 @@
 
   (net_class Power ""
     (clearance 0.2)
-    (trace_width 0.292)
-    (via_dia 0.889)
-    (via_drill 0.635)
+    (trace_width 0.3)
+    (via_dia 0.9)
+    (via_drill 0.6)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
   )
