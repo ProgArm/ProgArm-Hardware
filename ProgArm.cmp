@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Wed 10 Dec 2014 05:41:17 AM EET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11.12.2014 1:42:51
 
 BeginCmp
 TimeStamp = /5487C6FB;
@@ -858,7 +858,7 @@ BeginCmp
 TimeStamp = /547BAA7B;
 Reference = U5;
 ValeurCmp = MPU9250;
-IdModule  = QFN24;
+IdModule  = MPU9250;
 EndCmp
 
 BeginCmp
