@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Sun 22 Jun 2014 02:15:01 AM EEST
+PCBNEW-LibModule-V1  Sat 13 Dec 2014 05:16:15 AM EET
 # encoding utf-8
 Units mm
 $INDEX
 msk1103
 $EndINDEX
 $MODULE msk1103
-Po 0 0 0 15 53A611E6 00000000 ~~
+Po 0 0 0 15 548BAF6E 00000000 ~~
 Li msk1103
 Sc 0
 AR 
@@ -66,7 +66,7 @@ Sh "0" R 1 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -4.65 -1.05
+Po -4.6 -1.05
 $EndPAD
 $PAD
 Sh "" O 0.7 0.7 0 0 0
