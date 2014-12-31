@@ -1,7 +1,7 @@
 (kicad_pcb (version 3) (host pcbnew "(25-Oct-2014 BZR 4029)-stable")
 
   (general
-    (links 0)
+    (links 367)
     (no_connects 0)
     (area 39 39 91.000001 101.000001)
     (thickness 1.6)
@@ -23,13 +23,13 @@
   )
 
   (layers
-    (15 F.Cu signal hide)
-    (0 B.Cu signal hide)
+    (15 F.Cu signal)
+    (0 B.Cu signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
     (19 F.Paste user)
-    (20 B.SilkS user)
+    (20 B.SilkS user hide)
     (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
@@ -75,7 +75,7 @@
     (pcbplotparams
       (layerselection 284983297)
       (usegerberextensions true)
-      (excludeedgelayer false)
+      (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
       (viasonmask false)
