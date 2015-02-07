@@ -1,0 +1,521 @@
+[33mcommit 5f5f9b49e4832b9af20d85ff446db7bb1492ab4b[m
+Merge: 86d363e 697e891
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Sat Feb 7 15:03:13 2015 +0000
+
+    Merge branch 'master' of https://github.com/ProgArm/ProgArm-Hardware
+
+[33mcommit 86d363ec37b45470f2ee100d5e59356d7fb57120[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Sat Feb 7 15:02:05 2015 +0000
+
+    Fixed OTG activation pin, should now work
+
+[33mcommit 697e891a2b83dabe13011addebdbc15dbf241fd1[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sun Jan 4 23:29:13 2015 +0200
+
+    Corrected bottom silkscreen, no through-holes on our names
+
+[33mcommit b6662ec59d15a1137e6b0013b452779a8ca00838[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 31 02:47:48 2014 +0200
+
+    Excluded edge from other layers
+
+[33mcommit ce52ae60684754e8e3864f30dde0001e6340d217[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Tue Dec 30 22:25:28 2014 +0200
+
+    Version number in logo
+
+[33mcommit 69a8e707abff9cce0a75d579a2c6bd5c5ccba809[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 29 23:31:07 2014 +0200
+
+    Final touches to the pcb
+
+[33mcommit ea46a9d43950a9579adf5c3c495560b360444127[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 29 22:32:32 2014 +0200
+
+    Fixed one huge Fuckup
+
+[33mcommit 1f002c3da28cd941fcc6f34486179c8ceba0e247[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Sat Dec 27 13:12:37 2014 +0200
+
+    Added vias around antenna area
+
+[33mcommit 587127aafd2407a3b0e20515b99b55f94ce35ab2[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 27 00:05:35 2014 +0200
+
+    Regular through-holes instead of NPTH (only one file is allowed in itead)
+
+[33mcommit d723645a3388d328433ebf2c9a5f8bf6d41820a3[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Fri Dec 26 21:04:14 2014 +0200
+
+    Progarm is Ready!
+
+[33mcommit 0a324ce57b20cab7fbb390645fbd2fcf9fcb8c92[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Fri Dec 26 18:22:06 2014 +0200
+
+    Small fixes, DRC pass (almost)
+
+[33mcommit 962bfbe626191ad699349d4015c0acc9d1d4e26c[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Fri Dec 26 17:30:59 2014 +0200
+
+    Logo
+
+[33mcommit 9ec4187ce457628fbf30a87ab96dd041850bf8f0[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 25 11:34:46 2014 +0200
+
+    Rounded corners
+
+[33mcommit cc1deef2a723cd8304dfc68c447004d8fc54208c[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 25 11:20:45 2014 +0200
+
+    Some fixes for pours
+
+[33mcommit c67c24794595c0f30c7318417cfeb3f4170e2021[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Thu Dec 25 02:42:43 2014 +0200
+
+    Made minor changes to the ground plane
+
+[33mcommit 3cc443c3d70b719047784e073042cf0d06bcb190[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 24 21:09:54 2014 +0200
+
+    Fixed GND VIA at nRF8001 chip
+
+[33mcommit b2787f78190c9a2eba3765bc0ea1973f7f835ab4[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 24 20:23:46 2014 +0200
+
+    Better NRF central pad pour, wider GND pour near to it
+
+[33mcommit 1455dd0104cbef1d49888b0b6101b2289dac779a[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 24 19:41:04 2014 +0200
+
+    Made some changes to the antenna in accordance to app note
+
+[33mcommit 45792fbbd7dfedfe54d5b010a22f7ff152d3ca86[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Tue Dec 23 20:32:19 2014 +0200
+
+    More fixes for pours
+
+[33mcommit 33691f84d434a5d58f0ff10df034c6b8c39c6fea[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sun Dec 21 11:10:22 2014 +0200
+
+    Beautified pours, some fixes
+
+[33mcommit 5a4b6354cda13a3f048999a16be68353ae132d60[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 20 16:42:20 2014 +0200
+
+    Wide traces, pours
+
+[33mcommit d21f74599f2d7c9b5f6c0b8a08add947abcd56e7[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 20 15:57:15 2014 +0200
+
+    Small fixes for proper power tracks
+
+[33mcommit 5aee825f3c9c036d7d6987e1215827d0205164c8[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Thu Dec 18 23:03:36 2014 +0000
+
+    Board Optimized: Via count: 100  Trace Lenght: 2,515,295,8805
+
+[33mcommit ed18c046dd221b6593bfb6197a88413b34cd7e62[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 18 07:44:53 2014 +0200
+
+    PCB routed manually (132 vias, 2,583,322)
+
+[33mcommit aaa2b969fdc5db300434252e3481f93c1b8492a4[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 18 05:03:03 2014 +0200
+
+    Small fixes, thick power traces
+
+[33mcommit a64360071b989bbf4917cc3e6ab5476b97de9c39[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sun Dec 14 00:23:26 2014 +0200
+
+    Footprints changed according to 8f30ef2
+
+[33mcommit 8b9a716e27ae2e9088322f9402b890c0561540d8[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 21:58:06 2014 +0200
+
+    Updated dsn file
+
+[33mcommit a64a23eb7d35d3c9939596931b90fab62c8489da[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 21:53:51 2014 +0200
+
+    Small fixed, tracks imported
+
+[33mcommit 8dc1a27ed7fcba65be4a288eb2029cbd576e4d7d[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 20:56:50 2014 +0200
+
+    Optimized. 102 vias, 2,436,467
+
+[33mcommit f2a366d6ee5e269ec59e289dae56cf8b8f287377[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 16:42:10 2014 +0200
+
+    Routed! 105 vias, 2,501,678
+
+[33mcommit 920ea928d921e574077eb2963dbf95d4856eb470[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 09:18:38 2014 +0200
+
+    Arranged blocks
+
+[33mcommit b941030efc0e01cf2799b57f2dd1f55061a45b4f[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 05:23:18 2014 +0200
+
+    Updated modules
+
+[33mcommit c1a32dfebb53fad319a80bf8b5100ce01ffe0568[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 05:16:42 2014 +0200
+
+    Fixed inductor and switch footprints (seriously this time)
+
+[33mcommit caeceffa60cd5db8bcd593b7539549bc99f5e8e1[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 13 05:05:06 2014 +0200
+
+    Revert "Fixed inductor and switch footprints"
+    
+    (Netnames inside the library files)
+    
+    This reverts commit 9a7367a608264bf1beca435706c64097ef592859.
+
+[33mcommit 9a7367a608264bf1beca435706c64097ef592859[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Sat Dec 13 02:31:39 2014 +0000
+
+    Fixed inductor and switch footprints
+
+[33mcommit 58f26830accbcd3118ce1632e4efe9ffba04be1c[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 11 12:20:38 2014 +0200
+
+    Some progress
+
+[33mcommit 637a745068ff804e4acff36280d1b5ec6b27f206[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 11 04:32:39 2014 +0200
+
+    Changing trace widths (and rounding it to mm)
+
+[33mcommit 297720d1ee6c46e65ec16c604b8f1c59d9ddbaa0[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 11 04:12:15 2014 +0200
+
+    Thinner stm32 pads, GND on central pads
+
+[33mcommit 03b7ace3f0bd3cefb4605e30ef3a5f594c5b2dfc[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Thu Dec 11 02:02:04 2014 +0000
+
+    Added MPU footprint to the PCB file
+
+[33mcommit 4d1df5f6c3a83c73e94729dc90615fec1566411f[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Thu Dec 11 01:52:22 2014 +0000
+
+    Proper MPU Footprint
+
+[33mcommit 132e7e56fe33a58b76c23278e195f68824d532e0[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Thu Dec 11 02:43:06 2014 +0200
+
+    Central pads connected to GND (according to datasheets), no holes on central pads, smaller size for TXD and RXD pads
+
+[33mcommit 482215ead56b8c7767af4ffefc2a68e381b33035[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 10 05:48:43 2014 +0200
+
+    Initial edge cuts (4x5cm)
+
+[33mcommit 699bb6c29556d2ffb4ccebfbf18cf02f7724110c[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 10 05:43:28 2014 +0200
+
+    Fixed antenna pin number, changed footprints for BT TXD and RXD
+
+[33mcommit e6989ea57f3437e72ae1741c80ca16ef139445eb[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 10 05:31:01 2014 +0200
+
+    Starting ProgArm 0.3 PCB
+
+[33mcommit 79f09c9a8475e8aae940e51e51fcf0aa0d0092c6[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 10 03:25:29 2014 +0000
+
+    The Netlist is complete
+
+[33mcommit f3d17014696efc847fdc80a06a6b214700be6dd0[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 10 04:23:33 2014 +0200
+
+    Vibramotor
+
+[33mcommit 88906edfe5c1c5d8405b18d7ccc820bee244b44e[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 10 02:16:33 2014 +0000
+
+    Added Supercap Footprint Outline
+
+[33mcommit 127094bcd46c9bc8356b5167acc798f17535fcbb[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 10 02:09:29 2014 +0000
+
+    Added Supercap Footprint
+
+[33mcommit 7cf2dc4dd814c04d4a0e5e61f6392de82f767882[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 10 03:31:45 2014 +0200
+
+    Consistency
+
+[33mcommit 29cb6d135ed51bdc7bb3302f981d2d10d477c789[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 10 01:26:44 2014 +0000
+
+    Added LPS25H Footprint
+
+[33mcommit dfb0885f382a3cb9d08aba3e0535bd33aa68bf51[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 10 02:38:56 2014 +0200
+
+    pin headers, small modifications to antenna and balun
+
+[33mcommit 075529cc85e0191c5f57ff4ed0231eb756309db2[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Dec 9 22:50:25 2014 +0000
+
+    Created LM3668 footprint
+
+[33mcommit ae48b204bda2bbfe48abd285d91c820766d6a8ac[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Dec 9 22:25:54 2014 +0000
+
+    Fixed qfn-10 footprint
+
+[33mcommit 60c0f56ea98611b4a8ded708862d6d2cfb2cc063[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Dec 9 18:11:59 2014 +0000
+
+    Fixed bq27410 footprint
+
+[33mcommit 4f5fdd861cc0af8ccbfd596d20e980cad57d3f2e[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Tue Dec 9 03:58:49 2014 +0200
+
+    Most footprints are assigned
+
+[33mcommit 3a220cae6be77ee24c749369dab575aedfca6596[m
+Merge: 057225d 54aef8f
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Tue Dec 9 03:43:34 2014 +0200
+
+    Merge branch 'master' of https://github.com/ProgArm/ProgArm-Hardware
+
+[33mcommit 057225d00a4f2cd2f967dd60e9f11665bc012026[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Tue Dec 9 03:37:22 2014 +0200
+
+    Footprints (antenna, balun, inductor, transistor, si1142)
+
+[33mcommit 54aef8f9325a1f16640c937320a611b7ea52b469[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Dec 9 01:20:40 2014 +0000
+
+    Created footprints for crystals and bq27410
+
+[33mcommit bf50498b3239746653d4432c5a3311948c892054[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 23:28:16 2014 +0000
+
+    Started assigning footprints
+
+[33mcommit 4ba01968cd9268ffd2f4a9963accdf36460f00f3[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 21:59:10 2014 +0000
+
+    Ports managed
+
+[33mcommit b242dc6b7a770888b0b1eacec7e1e34f8b9c06b1[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 21:50:15 2014 +0000
+
+    Components numeration, description fixes
+
+[33mcommit b1442772f31911de9cb297a7526a0456215b714c[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 21:36:10 2014 +0000
+
+    We have passed ERC Test!
+
+[33mcommit 589f9a2fdbc7cadd4dd7aca40233b229f4f1373c[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Mon Dec 8 23:20:43 2014 +0200
+
+    No .dcm files (they're empty anyway)
+
+[33mcommit ff6cf53974476e0c39514f8c61f19d2bd06bc1d5[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 21:21:42 2014 +0000
+
+    Managed ERC Test pass
+
+[33mcommit 671d23bf232c5281672030f51344d38364e52da6[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Mon Dec 8 22:42:46 2014 +0200
+
+    Automatic component annotation
+
+[33mcommit ae7f4a4960c75eeb32a19cde05389a1d8450e926[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 02:33:53 2014 +0000
+
+    Pulse meter LEDs are now powered from VCC
+
+[33mcommit 90bf76c29a471edd17026b18e5f9e8fbd9f7601a[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 01:57:09 2014 +0000
+
+    Managed capacitors, made some cosmetic improvements
+
+[33mcommit d5aa3ea5ace16f4cc9e8c98ac951bd9d3d75d522[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Dec 8 00:59:22 2014 +0000
+
+    Fixed issues from the list, added block-style grouping
+
+[33mcommit d83d959989fbd307a7656c32c8fec9a28dfa9332[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 6 06:37:57 2014 +0200
+
+    Rearranged pins, extra ports, etc.
+
+[33mcommit d29537cfc5f7c4da8de86010eff86accc9d2d975[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Sat Dec 6 03:50:39 2014 +0200
+
+    Rearranging pins
+
+[33mcommit 6f257c14dbcb92acc4a1955b79868e021336bcab[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Fri Dec 5 23:47:59 2014 +0200
+
+    Cleaning. (halfway through)
+
+[33mcommit a7cebc0b7a6fdcba3a91c38bcbdeca945488388d[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Fri Dec 5 11:58:04 2014 +0000
+
+    Issue with bluetooth pull-downs
+
+[33mcommit 56f11bad41ce042a7d816edee4b482c28e35a521[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Thu Dec 4 21:42:39 2014 +0000
+
+    Removed unused third LED in the pulse sensor schematic
+
+[33mcommit dd9c09fe1f786f2211992aa717189eb013f01ce1[m
+Author: Alex Jakimenko <alex.jakimenko@gmail.com>
+Date:   Wed Dec 3 23:25:12 2014 +0200
+
+    Removed useless elements (buzzer signals, solder ports, NC pins etc.)
+
+[33mcommit 8aa440401ad74d9cf3228ef8bc25397b0e77424a[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 3 18:00:15 2014 +0000
+
+    Added Si1143-based Pulse Meter
+
+[33mcommit f8f5ae7e18db5ad3b3dccce4303ef2ab3413fba5[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 3 15:25:01 2014 +0000
+
+    Added Ionistor backup instead of battery
+
+[33mcommit 1888e7936e8e8b4b71a964279ff33bfcaa8abc1b[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Wed Dec 3 01:29:59 2014 +0000
+
+    Added  IR LED and Sensor connections for ring port
+
+[33mcommit c7809ecdcbb1385eeccfa8a9589c54310bc28596[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Dec 2 23:45:15 2014 +0000
+
+    Replaced nRF51 series chip with nRF8001; removed SD_CARD
+
+[33mcommit 05ef79a088574ad179d62d791e3864c5159dc398[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Sun Nov 30 21:53:39 2014 +0000
+
+    added connection for optional thermistor
+
+[33mcommit da787847a056e82a9f79c7b6f6b57f00a36ed862[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Sun Nov 30 21:38:32 2014 +0000
+
+    Added MPU9250 9-axis sensor
+
+[33mcommit 1885b6735bb5c1e65a7e75aaa3d2c3eba02fc390[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Nov 25 14:20:55 2014 +0000
+
+    one of the BT_AVDD power flags should have been set as output
+
+[33mcommit 837a05279bcd6d34226c36a6bc7debcc599dcb36[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Nov 25 04:59:00 2014 +0000
+
+    Fixed not connected SD_CD pin
+
+[33mcommit 848cef03402008e4dc79f4315d8fa97c1a6311dd[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Nov 25 04:52:52 2014 +0000
+
+    Fixed Rx Tx pins on BT Chip
+
+[33mcommit 881c9df0a24549eb62de82cf6307a75f8b34867f[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Tue Nov 25 04:41:33 2014 +0000
+
+    Replaced HC05 with custom BT module (nRF51822)
+
+[33mcommit 0e627c99803cd5703f9a6b41bcce9d90b6b1ccf4[m
+Author: TheShadowOfChernobyl <sanja2659@rambler.ru>
+Date:   Mon Nov 24 22:50:26 2014 +0000
+
+    -Replaced LTC3566 with bq24297
+    -Removed SYS_Power plane, now it's powered from 3.3v
+    -Added dedicated buck-boost converter (lm3668)
+    -Added OTG cable detection and input current sense
+    -Removed 100uF tantalum capacitors. Power filter system is still to review
+
+[33m
